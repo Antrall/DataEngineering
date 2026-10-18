@@ -1,0 +1,13 @@
+method,run,time_s,peak_mem_mib
+MapReduce v1 (before optimization),1,11.71,234.4
+MapReduce v1 (before optimization),2,12.24,232.3
+MapReduce v1 (before optimization),3,12.4,228.7
+"MapReduce (optimized, 4 processes)",1,5.81,358.4
+"MapReduce (optimized, 4 processes)",2,5.49,355.3
+"MapReduce (optimized, 4 processes)",3,5.43,354.7
+"MapReduce (optimized, 1 process)",1,8.71,131.2
+"MapReduce (optimized, 1 process)",2,8.59,131.0
+"MapReduce (optimized, 1 process)",3,9.52,131.3
+DuckDB SQL,1,5.0,648.1
+DuckDB SQL,2,3.32,640.3
+DuckDB SQL,3,3.2,607.3

@@ -2,3 +2,10 @@ data/
 disks/
 backup/
 __pycache__/
+
+results/mapreduce
+results/mapreduce_v1
+results/duckdb
+
+report/images/
+report/report.md

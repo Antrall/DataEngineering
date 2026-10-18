@@ -1,0 +1,4 @@
+bucket created: hh-lake
+uploaded 281708178 bytes in 2.1 s
+raw/it_vacancies_2024.csv              281708178
+ref/skills_alias.csv                        3716

@@ -1,0 +1,11 @@
+triple,vacancy_count,median_salary,base,base_median_salary,delta_to_base,delta_to_overall
+CMake + Low latency + Python,152,395555.0,CMake + Python,185745.0,209810.0,248525.0
+C++ + Low latency + Python,440,383670.0,C++ + Python,177480.0,206190.0,236640.0
+CMake + Low latency + STL,148,373665.0,CMake + STL,171390.0,202275.0,226635.0
+C++ + Linux + Low latency,1024,377623.5,C++ + Linux,176000.0,201623.5,230593.5
+C++17 + Python + SIMD,70,419670.0,C++17 + Python,219240.0,200430.0,272640.0
+CMake + Linux + Low latency,358,380595.0,CMake + Linux,180525.0,200070.0,233565.0
+Bash + Low latency + Python,86,418905.0,Bash + Python,219555.0,199350.0,271875.0
+C++ + Low latency + Алгоритмы и структуры данных,358,357350.0,C++ + Алгоритмы и структуры данных,158340.0,199010.0,210320.0
+C++ + CMake + Low latency,431,371500.0,C++ + CMake,174000.0,197500.0,224470.0
+C++17 + Low latency + Python,160,416686.5,C++17 + Python,219240.0,197446.5,269656.5

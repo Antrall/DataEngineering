@@ -1,0 +1,4 @@
+skills : results/mapreduce=97 rows, results/duckdb=97 rows, frequency sum 344000 / 344000 -> MATCH
+pairs  : results/mapreduce=4574 rows, results/duckdb=4574 rows, frequency sum 1195175 / 1195175 -> MATCH
+triples: results/mapreduce=82364 rows, results/duckdb=82364 rows, frequency sum 2696570 / 2696570 -> MATCH
+RESULT: results match completely

@@ -1,0 +1,5 @@
+variant vacancies: 49801
+results/duckdb/skills_1.csv: 97 rows
+results/duckdb/skills_2.csv: 4574 rows
+results/duckdb/skills_3.csv: 82364 rows
+done in 3.6 s

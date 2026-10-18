@@ -1,0 +1,13 @@
+object raw/it_vacancies_2024.csv: 281708178 bytes, 34 chunks of 8 MiB, 4 parallel mappers, 4 reducers
+[map 003] attempt 1 failed: mapper 3: process killed (injected failure)
+[map 003] retrying, attempt 2
+map finished in 3.2 s: rows scanned 250000, variant vacancies 49801
+[reduce 0] unique keys: 21760
+[reduce 2] unique keys: 21530
+[reduce 1] unique keys: 21762
+[reduce 3] unique keys: 21983
+results/mapreduce/skills_1.csv: 97 rows
+results/mapreduce/skills_2.csv: 4574 rows
+results/mapreduce/skills_3.csv: 82364 rows
+removed intermediate objects: 141
+done in 5.2 s

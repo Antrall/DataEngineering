@@ -1,0 +1,18 @@
+MapReduce v1 (before optimization)   run 1:   11.7 s, peak memory     234 MiB
+MapReduce v1 (before optimization)   run 2:   12.2 s, peak memory     232 MiB
+MapReduce v1 (before optimization)   run 3:   12.4 s, peak memory     229 MiB
+MapReduce (optimized, 4 processes)   run 1:    5.8 s, peak memory     358 MiB
+MapReduce (optimized, 4 processes)   run 2:    5.5 s, peak memory     355 MiB
+MapReduce (optimized, 4 processes)   run 3:    5.4 s, peak memory     355 MiB
+MapReduce (optimized, 1 process)     run 1:    8.7 s, peak memory     131 MiB
+MapReduce (optimized, 1 process)     run 2:    8.6 s, peak memory     131 MiB
+MapReduce (optimized, 1 process)     run 3:    9.5 s, peak memory     131 MiB
+DuckDB SQL                           run 1:    5.0 s, peak memory     648 MiB
+DuckDB SQL                           run 2:    3.3 s, peak memory     640 MiB
+DuckDB SQL                           run 3:    3.2 s, peak memory     607 MiB
+
+average over runs:
+MapReduce v1 (before optimization)   time   12.1 s (min 11.7, max 12.4), memory     232 MiB (max 234)
+MapReduce (optimized, 4 processes)   time    5.6 s (min 5.4, max 5.8), memory     356 MiB (max 358)
+MapReduce (optimized, 1 process)     time    8.9 s (min 8.6, max 9.5), memory     131 MiB (max 131)
+DuckDB SQL                           time    3.8 s (min 3.2, max 5.0), memory     632 MiB (max 648)

@@ -1,0 +1,11 @@
+pair,vacancy_count,median_salary,base,base_median_salary,delta_to_base,delta_to_overall
+C++ + Low latency,1323,357500.0,C++,152250.0,205250.0,210470.0
+Low latency + Алгоритмы и структуры данных,361,355830.0,Алгоритмы и структуры данных,152250.0,203580.0,208800.0
+Linux + Low latency,1046,372360.0,Linux,169000.0,203360.0,225330.0
+Low latency + Python,449,376000.0,Python,173130.0,202870.0,228970.0
+CMake + Low latency,439,368010.0,CMake,169500.0,198510.0,220980.0
+Low latency + STL,426,350500.0,STL,160515.0,189985.0,203470.0
+Git + Low latency,832,341000.0,Git,154500.0,186500.0,193970.0
+Low latency + TCP/IP,460,372000.0,TCP/IP,194880.0,177120.0,224970.0
+Boost + Low latency,370,357275.0,Boost,180960.0,176315.0,210245.0
+C++17 + SIMD,215,387000.0,C++17,212000.0,175000.0,239970.0
