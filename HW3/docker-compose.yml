@@ -1,0 +1,18 @@
+services:
+  rustfs:
+    image: rustfs/rustfs:latest
+    container_name: rustfs
+    ports:
+      - "9000:9000" # S3 API
+      - "9001:9001" # web-консоль
+    environment:
+      RUSTFS_VOLUMES: "/data/disk{1...4}"
+      RUSTFS_ACCESS_KEY: antrall
+      RUSTFS_SECRET_KEY: antrall123
+      RUSTFS_CONSOLE_ENABLE: "true"
+      RUSTFS_UNSAFE_BYPASS_DISK_CHECK: "true"
+    volumes:
+      - ./disks/disk1:/data/disk1
+      - ./disks/disk2:/data/disk2
+      - ./disks/disk3:/data/disk3
+      - ./disks/disk4:/data/disk4
