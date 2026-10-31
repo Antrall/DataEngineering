@@ -1,0 +1,13 @@
+2026-10-31 16:11:50.041 [orchestrator] scenario with-fencing, FENCING=1
+2026-10-31 16:11:50.224 [orchestrator] state reset: ZooKeeper /hw4 removed, 3 objects removed from the bucket
+2026-10-31 16:11:50.225 [orchestrator] coordinator A started
+2026-10-31 16:11:50.630 [orchestrator] coordinator B started
+2026-10-31 16:12:02.459 [orchestrator] leader A paused after 16 chunks
+2026-10-31 16:12:11.488 [orchestrator] standby B became leader 9.0 s after the pause
+2026-10-31 16:12:24.615 [orchestrator] standby B finished, exit code 0
+2026-10-31 16:12:42.460 [orchestrator] leader A resumed after a pause of 40 s
+2026-10-31 16:12:55.338 [orchestrator] leader A finished, exit code 0
+2026-10-31 16:12:55.355 [orchestrator] result pointer: version 1, data {"epoch": 2, "writer": "B", "result_key": "hw4/pairs/epoch-2/skills_2.csv"}
+2026-10-31 16:12:55.396 [orchestrator] hw4/pairs/epoch-1/skills_2.csv: 4574 rows, matches HW3 result: True
+2026-10-31 16:12:55.401 [orchestrator] hw4/pairs/epoch-2/skills_2.csv: 4574 rows, matches HW3 result: True
+2026-10-31 16:12:55.402 [orchestrator] summary: leader changed 9.0 s after the pause, pause lasted 40 s

@@ -1,0 +1,14 @@
+# после закрытия окна лидера (server2)
+PS C:\Users\Antrall\ITMO\DataEngineering\hw4> python src\zk_status.py
+server1 localhost:2181  Mode: follower
+server2 localhost:2182  not running (connection refused)
+server3 localhost:2183  Mode: leader
+PS C:\Users\Antrall\ITMO\DataEngineering\hw4> .\zk\server1\bin\zkCli.cmd -server localhost:2181,localhost:2182,localhost:2183 create /alive-check one-server-down
+Connecting to localhost:2181,localhost:2182,localhost:2183
+WatchedEvent state:SyncConnected type:None path:null zxid: -1
+Created /alive-check
+PS C:\Users\Antrall\ITMO\DataEngineering\hw4> .\zk\server1\bin\zkCli.cmd -server localhost:2181,localhost:2182,localhost:2183 ls /
+Connecting to localhost:2181,localhost:2182,localhost:2183
+WatchedEvent state:SyncConnected type:None path:null zxid: -1
+[alive-check, zookeeper]
+PS C:\Users\Antrall\ITMO\DataEngineering\hw4>

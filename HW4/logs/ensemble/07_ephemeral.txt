@@ -1,0 +1,20 @@
+# окно 2: create -e /ephemeral-demo hello, затем quit
+PS C:\Users\Antrall\ITMO\DataEngineering\hw4> .\zk\server1\bin\zkCli.cmd -server localhost:2181,localhost:2182,localhost:2183
+Connecting to localhost:2181,localhost:2182,localhost:2183
+Welcome to ZooKeeper!
+JLine support is enabled
+WatchedEvent state:SyncConnected type:None path:null zxid: -1
+[zk: ...(CONNECTED) 0] Created /ephemeral-demo
+[zk: ...(CONNECTED) 1] 
+WatchedEvent state:Closed type:None path:null zxid: -1
+# окно 1, пока окно 2 открыто
+PS C:\Users\Antrall\ITMO\DataEngineering\hw4> .\zk\server1\bin\zkCli.cmd -server localhost:2181,localhost:2182,localhost:2183 ls /
+Connecting to localhost:2181,localhost:2182,localhost:2183
+WatchedEvent state:SyncConnected type:None path:null zxid: -1
+[alive-check, ephemeral-demo, zookeeper]
+# окно 1, после quit в окне 2
+PS C:\Users\Antrall\ITMO\DataEngineering\hw4> .\zk\server1\bin\zkCli.cmd -server localhost:2181,localhost:2182,localhost:2183 ls /
+Connecting to localhost:2181,localhost:2182,localhost:2183
+WatchedEvent state:SyncConnected type:None path:null zxid: -1
+[alive-check, zookeeper]
+PS C:\Users\Antrall\ITMO\DataEngineering\hw4>

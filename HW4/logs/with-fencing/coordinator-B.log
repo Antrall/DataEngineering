@@ -1,0 +1,25 @@
+2026-10-31 16:11:51.176 [B] ZooKeeper connection state: CONNECTED
+2026-10-31 16:11:51.176 [B] started, session id 0x300000252b00003, FENCING=1
+2026-10-31 16:11:51.187 [B] waiting for leadership
+2026-10-31 16:12:11.439 [B] became leader, epoch 2
+2026-10-31 16:12:11.466 [B] resuming from checkpoint written by epoch 1: 16 of 34 chunks done
+2026-10-31 16:12:12.167 [B] chunk 16 done (17/34), checkpoint saved
+2026-10-31 16:12:12.987 [B] chunk 17 done (18/34), checkpoint saved
+2026-10-31 16:12:13.714 [B] chunk 18 done (19/34), checkpoint saved
+2026-10-31 16:12:14.420 [B] chunk 19 done (20/34), checkpoint saved
+2026-10-31 16:12:15.152 [B] chunk 20 done (21/34), checkpoint saved
+2026-10-31 16:12:15.860 [B] chunk 21 done (22/34), checkpoint saved
+2026-10-31 16:12:16.561 [B] chunk 22 done (23/34), checkpoint saved
+2026-10-31 16:12:17.250 [B] chunk 23 done (24/34), checkpoint saved
+2026-10-31 16:12:17.963 [B] chunk 24 done (25/34), checkpoint saved
+2026-10-31 16:12:18.735 [B] chunk 25 done (26/34), checkpoint saved
+2026-10-31 16:12:19.463 [B] chunk 26 done (27/34), checkpoint saved
+2026-10-31 16:12:20.167 [B] chunk 27 done (28/34), checkpoint saved
+2026-10-31 16:12:20.885 [B] chunk 28 done (29/34), checkpoint saved
+2026-10-31 16:12:21.588 [B] chunk 29 done (30/34), checkpoint saved
+2026-10-31 16:12:22.313 [B] chunk 30 done (31/34), checkpoint saved
+2026-10-31 16:12:23.040 [B] chunk 31 done (32/34), checkpoint saved
+2026-10-31 16:12:23.757 [B] chunk 32 done (33/34), checkpoint saved
+2026-10-31 16:12:24.438 [B] chunk 33 done (34/34), checkpoint saved
+2026-10-31 16:12:24.484 [B] epoch 2: wrote result, pointer version 1
+2026-10-31 16:12:24.494 [B] exiting

@@ -1,0 +1,15 @@
+2026-10-31 16:11:50.225 [orchestrator] coordinator A started
+2026-10-31 16:11:50.549 [A] started, session id 0x300000252b00002, FENCING=1
+2026-10-31 16:11:50.579 [A] became leader, epoch 1
+2026-10-31 16:11:50.630 [orchestrator] coordinator B started
+2026-10-31 16:11:51.176 [B] started, session id 0x300000252b00003, FENCING=1
+2026-10-31 16:12:02.459 [orchestrator] leader A paused after 16 chunks
+2026-10-31 16:12:11.439 [B] became leader, epoch 2
+2026-10-31 16:12:11.466 [B] resuming from checkpoint written by epoch 1: 16 of 34 chunks done
+2026-10-31 16:12:11.488 [orchestrator] standby B became leader 9.0 s after the pause
+2026-10-31 16:12:24.484 [B] epoch 2: wrote result, pointer version 1
+2026-10-31 16:12:42.460 [orchestrator] leader A resumed after a pause of 40 s
+2026-10-31 16:12:42.461 [A] ZooKeeper connection state: SUSPENDED
+2026-10-31 16:12:42.503 [A] ZooKeeper connection state: LOST
+2026-10-31 16:12:55.133 [A] epoch 1: publish rejected: BadVersionError, epoch node changed (a newer leader exists)
+2026-10-31 16:12:55.355 [orchestrator] result pointer: version 1, data {"epoch": 2, "writer": "B", "result_key": "hw4/pairs/epoch-2/skills_2.csv"}

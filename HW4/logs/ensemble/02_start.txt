@@ -1,0 +1,9 @@
+# окно сервера 1: сервер работает в этом окне и пишет в него журнал
+PS C:\Users\Antrall\ITMO\DataEngineering\hw4\zk\server1> .\bin\zkServer.cmd
+2026-10-31 14:19:33,776 [myid:1] - INFO  [main:o.a.z.s.NIOServerCnxnFactory@660] - binding to port 0.0.0.0/0.0.0.0:2181
+2026-10-31 14:19:33,841 [myid:] - INFO  [QuorumPeer[myid=1](plain=0.0.0.0:2181)(secure=disabled):o.a.z.s.q.QuorumPeer@1470] - LOOKING
+2026-10-31 14:19:33,868 [myid:] - INFO  [QuorumPeer[myid=1](plain=0.0.0.0:2181)(secure=disabled):o.a.z.s.q.QuorumPeer@906] - Peer state changed: following
+2026-10-31 14:19:33,879 [myid:] - INFO  [QuorumPeer[myid=1](plain=0.0.0.0:2181)(secure=disabled):o.a.z.s.q.Follower@76] - FOLLOWING - LEADER ELECTION TOOK - 37 MS
+2026-10-31 14:19:33,891 [myid:] - INFO  [QuorumPeer[myid=1](plain=0.0.0.0:2181)(secure=disabled):o.a.z.s.q.QuorumPeer@920] - Peer state changed: following - synchronization
+2026-10-31 14:19:33,893 [myid:] - INFO  [QuorumPeer[myid=1](plain=0.0.0.0:2181)(secure=disabled):o.a.z.s.q.QuorumPeer@925] - Peer state changed: following - synchronization - diff
+2026-10-31 14:19:33,898 [myid:] - INFO  [QuorumPeer[myid=1](plain=0.0.0.0:2181)(secure=disabled):o.a.z.s.q.QuorumPeer@925] - Peer state changed: following - synchronization

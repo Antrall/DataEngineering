@@ -1,0 +1,6 @@
+# серверы 1 и 2 снова запущены
+PS C:\Users\Antrall\ITMO\DataEngineering\hw4> python src\zk_status.py
+server1 localhost:2181  Mode: follower
+server2 localhost:2182  Mode: follower
+server3 localhost:2183  Mode: leader
+PS C:\Users\Antrall\ITMO\DataEngineering\hw4>
