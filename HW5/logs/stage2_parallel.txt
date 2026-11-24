@@ -1,0 +1,51 @@
+Waiting for deployment "rustfs" rollout to finish: 0 of 1 updated replicas are available...
+deployment "rustfs" successfully rolled out
+> kubectl get deployment,pod,svc,pvc -n hw5
+NAME                     READY   UP-TO-DATE   AVAILABLE   AGE
+deployment.apps/rustfs   1/1     1            1           13s
+
+NAME                         READY   STATUS      RESTARTS   AGE
+pod/pairs-single-j8g6h       0/1     Completed   0          20s
+pod/rustfs-686774668-blbwg   1/1     Running     0          13s
+
+NAME             TYPE        CLUSTER-IP      EXTERNAL-IP   PORT(S)    AGE
+service/rustfs   ClusterIP   10.96.117.241   <none>        9000/TCP   13s
+
+NAME                                STATUS   VOLUME                                     CAPACITY   ACCESS MODES   STORAGECLASS   VOLUMEATTRIBUTESCLASS   AGE
+persistentvolumeclaim/rustfs-data   Bound    pvc-a7001e42-1b89-4169-860f-e296f44e5fdb   5Gi        RWO            standard       <unset>                 13s
+uploading the dataset into the in-cluster S3 through port-forward
+bucket created: hh-lake
+uploaded 281708178 bytes in 1.5 s
+raw/it_vacancies_2024.csv              281708178
+ref/skills_alias.csv                        3716
+== single pod, in-cluster S3
+pairs-single: limit 96Mi: phase Succeeded, container Completed, exit code 0, peak cgroup 70 MiB, maxrss 79 MiB
+== parallel Jobs, real data
+pairs-p4: 34 pods, 4 at a time, pause per chunk 0 s
+pairs-p4: all 34 chunk pods finished in 35 s; peak memory of pods: max 57 MiB (limit 96 MiB), pods with a peak line: 34
+reduce-p4: merged; vs HW3: file identical True, top-10 identical True
+== heavy chunks: pause of 4 s per chunk
+pairs-single: limit 96Mi: phase Succeeded, container Completed, exit code 0, peak cgroup 69 MiB, maxrss 79 MiB
+pairs-h2: 34 pods, 2 at a time, pause per chunk 4 s
+pairs-h2: all 34 chunk pods finished in 134 s; peak memory of pods: max 57 MiB (limit 96 MiB), pods with a peak line: 34
+reduce-h2: merged; vs HW3: file identical True, top-10 identical True
+pairs-h4: 34 pods, 4 at a time, pause per chunk 4 s
+> kubectl get job pairs-h4 -n hw5
+NAME       STATUS    COMPLETIONS   DURATION   AGE
+pairs-h4   Running   0/34          5s         5s
+> kubectl get pods -n hw5 -l job-name=pairs-h4
+NAME               READY   STATUS    RESTARTS   AGE
+pairs-h4-0-25mls   1/1     Running   0          5s
+pairs-h4-1-c88z6   1/1     Running   0          5s
+pairs-h4-2-8t2v4   1/1     Running   0          5s
+pairs-h4-3-mrh5r   1/1     Running   0          5s
+pairs-h4: all 34 chunk pods finished in 70 s; peak memory of pods: max 57 MiB (limit 96 MiB), pods with a peak line: 34
+reduce-h4: merged; vs HW3: file identical True, top-10 identical True
+results/k8s_skills_2.csv and results/k8s_top10.csv saved; top-10 identical to results/reference/hw3_top10.csv: True
+== summary
+variant                           pause, s  time, s  peak, MiB  equals HW3
+1 pod (whole file)                       0        5         70        True
+34 pods, 4 at a time                     0       35         57        True
+1 pod (whole file)                       4      141         69        True
+34 pods, 2 at a time                     4      134         57        True
+34 pods, 4 at a time                     4       70         57        True

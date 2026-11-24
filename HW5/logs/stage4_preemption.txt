@@ -1,0 +1,48 @@
+> kubectl get priorityclass batch-low urgent-high
+NAME          VALUE   GLOBAL-DEFAULT   AGE
+batch-low     100     false            10m
+urgent-high   10000   false            10m
+free CPU 1800m: 4 background pods of 400m take 1600m, 200m stay free; the urgent pod asks 400m
+== before: the node is busy with background pods
+> kubectl get pods -n hw5 -l job-name=low-batch -o custom-columns=NAME:.metadata.name,PRIORITY:.spec.priorityClassName,CPU:.spec.containers[0].resources.requests.cpu,PHASE:.status.phase,NODE:.spec.nodeName
+NAME                PRIORITY    CPU    PHASE     NODE
+low-batch-0-c9nzc   batch-low   400m   Running   hw5-worker
+low-batch-1-rgtwk   batch-low   400m   Running   hw5-worker
+low-batch-2-dgw6g   batch-low   400m   Running   hw5-worker
+low-batch-3-h4mlz   batch-low   400m   Running   hw5-worker
+== the urgent job is submitted
+== 3 s later: one background pod is gone (preempted), the urgent pod already runs
+> kubectl get pods -n hw5 -l "job-name in (low-batch,urgent-high)" -o wide
+NAME                READY   STATUS    RESTARTS   AGE   IP             NODE         NOMINATED NODE   READINESS GATES
+low-batch-0-c9nzc   1/1     Running   0          4s    10.244.1.144   hw5-worker   <none>           <none>
+low-batch-2-dgw6g   1/1     Running   0          4s    10.244.1.145   hw5-worker   <none>           <none>
+low-batch-3-h4mlz   1/1     Running   0          4s    10.244.1.146   hw5-worker   <none>           <none>
+urgent-high-vfp8b   1/1     Running   0          3s    10.244.1.148   hw5-worker   <none>           <none>
+== during: the urgent pod runs, the three other background pods continue
+> kubectl get pods -n hw5 -l "job-name in (low-batch,urgent-high)" -o custom-columns=NAME:.metadata.name,PRIORITY:.spec.priorityClassName,CPU:.spec.containers[0].resources.requests.cpu,PHASE:.status.phase,NODE:.spec.nodeName
+NAME                PRIORITY      CPU    PHASE     NODE
+low-batch-0-c9nzc   batch-low     400m   Running   hw5-worker
+low-batch-2-dgw6g   batch-low     400m   Running   hw5-worker
+low-batch-3-h4mlz   batch-low     400m   Running   hw5-worker
+urgent-high-vfp8b   urgent-high   400m   Running   hw5-worker
+== events: who was preempted and when (seconds after the urgent job was submitted)
+  t+  0 s  FailedScheduling pod/urgent-high-vfp8b              0/2 nodes are available: 1 Insufficient cpu, 1 node(s) had untolerated taint {node-role.kubernetes.io/control-
+  t+  0 s  Preempted        pod/low-batch-1-rgtwk              Preempted by pod 4a207b74-8f23-4b08-9e6e-3feca568274f on node hw5-worker
+  t+  0 s  SuccessfulCreate job/urgent-high                    Created pod: urgent-high-vfp8b
+  t+  1 s  Killing          pod/low-batch-1-rgtwk              Stopping container pairs
+  t+  1 s  Scheduled        pod/urgent-high-vfp8b              Successfully assigned hw5/urgent-high-vfp8b to hw5-worker
+== after: the urgent pod finished, the Job created a new background pod instead of the preempted one
+> kubectl get pods -n hw5 -l "job-name in (low-batch,urgent-high)" -o custom-columns=NAME:.metadata.name,PRIORITY:.spec.priorityClassName,CPU:.spec.containers[0].resources.requests.cpu,PHASE:.status.phase,NODE:.spec.nodeName
+NAME                PRIORITY      CPU    PHASE       NODE
+low-batch-0-c9nzc   batch-low     400m   Running     hw5-worker
+low-batch-1-tfklh   batch-low     400m   Pending     hw5-worker
+low-batch-2-dgw6g   batch-low     400m   Running     hw5-worker
+low-batch-3-h4mlz   batch-low     400m   Running     hw5-worker
+urgent-high-vfp8b   urgent-high   400m   Succeeded   hw5-worker
+urgent job log (tail):
+  Git + STL: 9353
+  CMake + Git: 7880
+  Linux + STL: 7455
+peak memory: cgroup 69 MiB, maxrss 79 MiB
+urgent result vs HW3: file identical True, top-10 identical True
+background job deleted

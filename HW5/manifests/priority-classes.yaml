@@ -1,0 +1,23 @@
+apiVersion: scheduling.k8s.io/v1
+kind: PriorityClass
+metadata:
+  name: batch-low
+value: 100
+preemptionPolicy: PreemptLowerPriority
+description: "Фоновые задачи, которые можно вытеснить"
+---
+apiVersion: scheduling.k8s.io/v1
+kind: PriorityClass
+metadata:
+  name: urgent-high
+value: 10000
+preemptionPolicy: PreemptLowerPriority
+description: "Срочные задачи, вытесняющие фоновые"
+---
+apiVersion: scheduling.k8s.io/v1
+kind: PriorityClass
+metadata:
+  name: service
+value: 1000
+preemptionPolicy: PreemptLowerPriority
+description: "Сервисы (S3), которые нельзя вытеснять ради фоновых задач"

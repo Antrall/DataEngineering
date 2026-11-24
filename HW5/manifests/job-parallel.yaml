@@ -1,0 +1,29 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: ${JOB_NAME}
+  namespace: ${NAMESPACE}
+spec:
+  completionMode: Indexed
+  completions: ${COMPLETIONS}
+  parallelism: ${PARALLELISM}
+  backoffLimit: 20
+  template:
+    spec:
+      restartPolicy: Never
+      priorityClassName: "${PRIORITY_CLASS}"
+      containers:
+        - name: pairs
+          image: hw5-pairs:1
+          imagePullPolicy: IfNotPresent
+          args: ["--mode", "chunk", "--hold-seconds", "${HOLD_SECONDS}", "--partials-prefix", "${PARTIALS_PREFIX}"]
+          env:
+            - name: S3_ENDPOINT
+              value: "${S3_ENDPOINT}"
+          resources:
+            requests:
+              cpu: ${CPU_REQUEST}
+              memory: ${MEMORY_REQUEST}
+            limits:
+              cpu: "1"
+              memory: ${MEMORY_LIMIT}

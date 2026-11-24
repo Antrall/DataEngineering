@@ -1,0 +1,14 @@
+> python src\verify_top10.py k8s/result-h4 http://localhost:19000
+k8s/result-h4/skills_2.csv vs HW3: file identical: True, top-10 identical: True
+  C++ + Git: 24602
+  C++ + Linux: 19143
+  Git + Linux: 14072
+  C++ + STL: 13567
+  C++ + CMake: 10739
+  C++ + Python: 9909
+  C++ + Многопоточность: 9793
+  Git + STL: 9353
+  CMake + Git: 7880
+  Linux + STL: 7455
+> cmp results\k8s_top10.csv results\reference\hw3_top10.csv
+identical (no output from cmp)

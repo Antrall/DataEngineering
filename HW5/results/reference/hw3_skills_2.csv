@@ -1,0 +1,4575 @@
+skill_1,skill_2,vacancies
+C++,Git,24602
+C++,Linux,19143
+Git,Linux,14072
+C++,STL,13567
+C++,CMake,10739
+C++,Python,9909
+C++,Многопоточность,9793
+Git,STL,9353
+CMake,Git,7880
+Linux,STL,7455
+CMake,Linux,7424
+C,C++,7022
+Boost,C++,6967
+C++,Алгоритмы и структуры данных,6950
+Git,Python,6950
+Linux,Многопоточность,6863
+C++,TCP/IP,6668
+Git,Многопоточность,6629
+Linux,Python,6539
+C++,Windows,6446
+C,Git,6276
+C++,Qt,5677
+C++,SQL,5476
+Linux,TCP/IP,5475
+C,Embedded,4998
+C++,ООП,4930
+Boost,Linux,4929
+Boost,Git,4851
+Git,TCP/IP,4651
+C,Linux,4594
+C++,Docker,4536
+Git,Алгоритмы и структуры данных,4487
+STL,Многопоточность,4388
+CMake,STL,4384
+C++,C++17,4240
+C++,Паттерны проектирования,4226
+Git,Qt,4135
+TCP/IP,Многопоточность,3940
+Python,STL,3805
+Linux,Алгоритмы и структуры данных,3788
+Embedded,Git,3695
+Git,Windows,3583
+C++,Embedded,3563
+CMake,Многопоточность,3542
+Docker,Linux,3525
+C++17,Linux,3461
+CMake,Python,3447
+C,Микроконтроллеры,3444
+Git,SQL,3377
+Boost,STL,3262
+C++,PostgreSQL,3254
+Docker,Git,3223
+C++,Математика,3203
+C++,C++20,3169
+STL,TCP/IP,3152
+Git,Паттерны проектирования,3068
+Boost,Многопоточность,3056
+Python,Многопоточность,2992
+ARM,C,2982
+C,STM32,2969
+C,RTOS,2928
+Boost,CMake,2926
+STL,Алгоритмы и структуры данных,2911
+Linux,SQL,2880
+C++,OpenCV,2879
+C++,Unreal Engine,2873
+Qt,STL,2848
+C++17,Git,2847
+CMake,TCP/IP,2841
+Git,ООП,2830
+Embedded,Linux,2826
+C++,WinAPI,2736
+Алгоритмы и структуры данных,Многопоточность,2676
+Git,Микроконтроллеры,2603
+C++20,Linux,2580
+Linux,PostgreSQL,2577
+Qt,Windows,2566
+Bash,C++,2561
+C,SPI/I2C/UART,2560
+C++,Микроконтроллеры,2514
+C++17,Многопоточность,2488
+Boost,TCP/IP,2464
+Linux,Паттерны проектирования,2447
+C++,Linear algebra,2416
+Embedded,Микроконтроллеры,2410
+C++,QML,2356
+C++,Low latency,2335
+Git,PostgreSQL,2331
+C++,CI/CD,2318
+C++,Google Test,2311
+ARM,Git,2308
+Git,STM32,2284
+Git,RTOS,2278
+C++,OpenGL,2272
+C++,STM32,2270
+C++,RTOS,2232
+SQL,STL,2220
+Python,TCP/IP,2212
+ARM,C++,2194
+Docker,Многопоточность,2176
+Boost,Python,2173
+STL,Windows,2155
+C,GDB,2137
+Docker,STL,2117
+ARM,Embedded,2106
+C++,Компьютерное зрение,2100
+C++20,Git,2092
+STL,Паттерны проектирования,2091
+C#,C++,2089
+Embedded,RTOS,2074
+Embedded,STM32,2052
+Bash,Linux,2042
+Git,SPI/I2C/UART,2031
+Git,Математика,2027
+C++,SPI/I2C/UART,2020
+CMake,Qt,2016
+C++,Технический английский,2005
+Linux,Микроконтроллеры,1991
+C++17,TCP/IP,1937
+C++17,STL,1910
+CMake,Docker,1910
+Linux,Qt,1903
+Windows,ООП,1881
+C,CMake,1874
+PostgreSQL,Многопоточность,1860
+Python,Алгоритмы и структуры данных,1850
+C,Python,1846
+Linux,Low latency,1846
+C++,SIMD,1836
+C++20,Многопоточность,1821
+Git,Unreal Engine,1820
+Google Test,Linux,1819
+Git,OpenCV,1818
+TCP/IP,Алгоритмы и структуры данных,1810
+CI/CD,Linux,1808
+Docker,TCP/IP,1794
+C++,gRPC,1789
+STL,ООП,1787
+Linux,OpenCV,1786
+Linux,RTOS,1781
+Assembler,C,1768
+C++,Protobuf,1767
+C,Make,1763
+Embedded,SPI/I2C/UART,1761
+ARM,Linux,1758
+Git,QML,1747
+C,Embedded Linux,1739
+C++17,CMake,1736
+Qt,ООП,1732
+C,CAN,1728
+Bash,Git,1727
+Linux,STM32,1724
+GDB,Git,1712
+C++,MFC,1705
+QML,Qt,1705
+C++,DirectX,1700
+C++,Visual Studio,1695
+C++,GDB,1694
+Docker,Python,1682
+Git,Google Test,1681
+CI/CD,Git,1674
+CMake,Алгоритмы и структуры данных,1652
+CMake,SQL,1647
+PostgreSQL,STL,1613
+SQL,Многопоточность,1607
+CMake,Паттерны проектирования,1600
+PostgreSQL,TCP/IP,1575
+C++,SVN,1560
+Git,Linear algebra,1548
+Git,OpenGL,1541
+Linux,SPI/I2C/UART,1537
+Boost,Docker,1529
+OpenCV,Python,1529
+Embedded,GDB,1515
+C++,Redis,1495
+Assembler,C++,1485
+C++,Embedded Linux,1465
+Git,Make,1460
+Qt,Паттерны проектирования,1458
+C++,Make,1455
+Assembler,Git,1449
+C++,CAN,1448
+Boost,Алгоритмы и структуры данных,1447
+Git,Low latency,1447
+Embedded Linux,Git,1442
+Boost,C++17,1436
+Linux,ООП,1432
+C++17,Python,1429
+Git,WinAPI,1424
+CMake,PostgreSQL,1414
+C++,CUDA,1413
+RTOS,Микроконтроллеры,1412
+Bash,Многопоточность,1410
+C#,Git,1407
+CAN,Git,1405
+Linux,Технический английский,1395
+Linux,gRPC,1391
+SQL,TCP/IP,1386
+ARM,Микроконтроллеры,1378
+Asio,C++,1367
+Linux,Protobuf,1358
+CMake,Embedded,1355
+STM32,Микроконтроллеры,1353
+WinAPI,Windows,1353
+C,Схемотехника,1329
+C,ООП,1326
+GDB,Linux,1318
+C++,Delphi,1313
+C++,Jenkins,1308
+C,Драйверы,1307
+Boost,SQL,1299
+C++20,TCP/IP,1299
+Low latency,Многопоточность,1295
+C++,Kafka,1291
+Git,Компьютерное зрение,1291
+Git,Технический английский,1290
+Git,Protobuf,1285
+SQL,ООП,1284
+Git,gRPC,1281
+SQL,Windows,1278
+Boost,PostgreSQL,1267
+Linux,Компьютерное зрение,1266
+Google Test,Многопоточность,1264
+Assembler,Embedded,1258
+CMake,Windows,1258
+CI/CD,Многопоточность,1255
+Linux,Windows,1254
+Python,SQL,1252
+Embedded,Make,1249
+ARM,RTOS,1248
+C++20,CMake,1248
+SQL,Алгоритмы и структуры данных,1243
+C++20,STL,1240
+Многопоточность,Паттерны проектирования,1236
+Boost,Qt,1229
+SPI/I2C/UART,Микроконтроллеры,1225
+CAN,Embedded,1214
+RTOS,STM32,1211
+ARM,STM32,1209
+C++,Схемотехника,1200
+Boost,Паттерны проектирования,1198
+C++,Драйверы,1195
+Embedded,Embedded Linux,1172
+Google Test,STL,1164
+QML,STL,1163
+C++17,Алгоритмы и структуры данных,1159
+Bash,STL,1149
+Qt,WinAPI,1141
+Git,SIMD,1140
+CI/CD,STL,1134
+Git,Схемотехника,1128
+C++,Vulkan,1127
+Linux,Redis,1123
+OpenCV,Компьютерное зрение,1120
+Linux,SIMD,1118
+Git,Драйверы,1117
+C,Modbus,1115
+Python,Компьютерное зрение,1108
+STL,Математика,1106
+C++,Perforce,1103
+C++,Unity,1097
+Git,Redis,1089
+Embedded Linux,Linux,1082
+Assembler,Linux,1079
+TCP/IP,Паттерны проектирования,1078
+Bash,TCP/IP,1077
+SPI/I2C/UART,STM32,1075
+Linux,Make,1071
+C,Алгоритмы и структуры данных,1070
+DirectX,Git,1069
+Google Test,TCP/IP,1068
+PostgreSQL,Python,1066
+Python,Математика,1065
+CI/CD,TCP/IP,1064
+GDB,Микроконтроллеры,1059
+Docker,PostgreSQL,1058
+RTOS,SPI/I2C/UART,1055
+Bash,CMake,1054
+Python,Паттерны проектирования,1052
+ARM,SPI/I2C/UART,1051
+CAN,Linux,1049
+C++,Modbus,1045
+C++20,Python,1045
+STL,Unreal Engine,1038
+Алгоритмы и структуры данных,ООП,1032
+C++,Unit-тестирование,1028
+CMake,OpenCV,1027
+Embedded,Python,1025
+C++,Linux kernel,1022
+Linux,Математика,1020
+Asio,Linux,1015
+CI/CD,CMake,1012
+CMake,Google Test,1012
+Boost,C++20,1001
+C++17,C++20,996
+C++,Lua,995
+Git,Modbus,992
+Asio,Git,987
+Kafka,Linux,986
+QML,Windows,980
+WinAPI,ООП,964
+Docker,SQL,962
+C++,Kubernetes,957
+Python,Qt,951
+Jenkins,Linux,950
+OpenCV,STL,938
+Qt,SQL,935
+C++20,Low latency,934
+gRPC,Многопоточность,930
+C++,OpenMP,929
+CMake,Микроконтроллеры,928
+Git,Jenkins,927
+Protobuf,Многопоточность,927
+C++,Алготрейдинг,923
+C++,ROS,922
+SQL,Паттерны проектирования,922
+CUDA,Git,918
+C++17,Docker,916
+C++,Pascal,914
+Docker,Алгоритмы и структуры данных,913
+Git,Kafka,908
+Visual Studio,Windows,905
+GDB,RTOS,904
+C,STL,902
+Linux,Схемотехника,895
+Embedded,Схемотехника,892
+CUDA,Linux,890
+GDB,STM32,890
+ARM,GDB,887
+OpenGL,STL,887
+Python,Технический английский,887
+Embedded,Драйверы,880
+Unreal Engine,Многопоточность,876
+Bash,Boost,874
+C++20,Алгоритмы и структуры данных,873
+C++,Wireshark,870
+MFC,Windows,869
+STL,gRPC,863
+Unreal Engine,Алгоритмы и структуры данных,862
+CMake,ООП,857
+Git,Linux kernel,857
+Boost,CI/CD,854
+PostgreSQL,Алгоритмы и структуры данных,853
+CMake,QML,851
+Windows,Паттерны проектирования,850
+Linear algebra,Linux,848
+Bash,Python,847
+Low latency,TCP/IP,846
+OpenCV,Математика,845
+Embedded Linux,Микроконтроллеры,842
+Make,Микроконтроллеры,841
+C#,STL,840
+Unreal Engine,Математика,840
+ARM,CMake,839
+Boost,Google Test,833
+Linux,QML,833
+Linux,Драйверы,832
+PostgreSQL,SQL,831
+ООП,Паттерны проектирования,831
+C++17,Low latency,829
+CMake,RTOS,828
+CMake,STM32,827
+Linear algebra,STL,827
+Assembler,Микроконтроллеры,826
+Low latency,Python,825
+Protobuf,STL,824
+C++17,PostgreSQL,823
+TCP/IP,gRPC,823
+CMake,Low latency,819
+CMake,Protobuf,818
+Linear algebra,Python,812
+C++,FPGA,811
+C++,FIX protocol,810
+CAN,Микроконтроллеры,808
+C,SQL,807
+Python,Windows,805
+STL,WinAPI,805
+C++,MQTT,793
+Protobuf,TCP/IP,789
+Python,ООП,788
+SVN,Windows,778
+Boost,Windows,774
+Linux,Modbus,768
+Windows,Алгоритмы и структуры данных,768
+Алгоритмы и структуры данных,Паттерны проектирования,765
+Docker,Google Test,763
+Bash,C++17,760
+C,MQTT,757
+Embedded,Modbus,754
+Redis,Многопоточность,753
+C,FPGA,752
+C,Linux kernel,747
+GDB,SPI/I2C/UART,747
+Redis,STL,746
+Git,Unit-тестирование,745
+Docker,Паттерны проектирования,744
+Linux,Linux kernel,740
+CMake,gRPC,739
+CI/CD,Docker,737
+Google Test,Python,736
+Unreal Engine,Windows,734
+ARM,Make,730
+Low latency,STL,730
+Git,Unity,729
+Kubernetes,Linux,729
+ARM,Assembler,727
+Asio,Многопоточность,727
+CI/CD,Python,726
+FPGA,Git,726
+C++17,SQL,721
+Python,Микроконтроллеры,721
+QML,ООП,721
+CAN,RTOS,720
+Embedded Linux,RTOS,719
+Embedded Linux,STM32,719
+Assembler,STM32,717
+ARM,Embedded Linux,715
+CAN,STM32,713
+Git,MQTT,713
+OpenGL,Windows,712
+CMake,SPI/I2C/UART,711
+Git,Perforce,710
+CMake,Компьютерное зрение,709
+C++,Rust,708
+DirectX,Unreal Engine,708
+CUDA,Python,706
+Git,Vulkan,706
+ARM,CAN,704
+C++,Verilog,704
+Make,STM32,700
+OpenGL,Unreal Engine,700
+Git,Kubernetes,698
+Linear algebra,Математика,696
+CMake,Технический английский,692
+Make,RTOS,692
+Assembler,RTOS,690
+CUDA,OpenCV,690
+C#,Windows,688
+Linear algebra,OpenCV,688
+Bash,Алгоритмы и структуры данных,682
+Jenkins,Многопоточность,675
+Asio,STL,672
+STL,Компьютерное зрение,667
+Linux,Алготрейдинг,665
+SIMD,Многопоточность,662
+Boost,gRPC,661
+SQL,WinAPI,660
+Low latency,Алгоритмы и структуры данных,659
+CI/CD,PostgreSQL,652
+Boost,Protobuf,650
+Visual Studio,ООП,650
+CMake,Redis,649
+Kafka,Многопоточность,648
+Python,SIMD,647
+Access,C++,646
+Delphi,Windows,645
+Google Test,PostgreSQL,645
+MFC,ООП,645
+Redis,TCP/IP,643
+STL,Технический английский,641
+PostgreSQL,Паттерны проектирования,640
+Python,STM32,637
+Linux,WinAPI,635
+DirectX,STL,633
+Make,SPI/I2C/UART,631
+CMake,GDB,630
+Jenkins,STL,630
+Assembler,SPI/I2C/UART,626
+C#,Qt,623
+Embedded Linux,SPI/I2C/UART,623
+Git,Lua,622
+Python,RTOS,621
+C,Windows,618
+Boost,Low latency,615
+Git,Wireshark,614
+MFC,Visual Studio,612
+CI/CD,SQL,610
+Git,Verilog,610
+ARM,Python,604
+CAN,SPI/I2C/UART,602
+SIMD,STL,602
+Git,OpenMP,601
+Драйверы,Микроконтроллеры,600
+Математика,Многопоточность,600
+C,Verilog,598
+CMake,WinAPI,596
+QML,Паттерны проектирования,591
+Linear algebra,Unreal Engine,590
+OpenGL,Qt,590
+Qt,Unit-тестирование,590
+Google Test,SQL,589
+Google Test,Алгоритмы и структуры данных,588
+Многопоточность,Технический английский,588
+Микроконтроллеры,Схемотехника,587
+Docker,OpenCV,585
+Jenkins,TCP/IP,582
+Linux,Wireshark,580
+Bash,Docker,578
+Git,ROS,578
+CI/CD,Алгоритмы и структуры данных,576
+Python,gRPC,576
+C#,Unreal Engine,574
+Python,SPI/I2C/UART,574
+Asio,TCP/IP,571
+OpenCV,Технический английский,570
+C++17,CI/CD,567
+Kafka,STL,567
+SVN,ООП,566
+Git,Алготрейдинг,565
+CMake,Embedded Linux,563
+FIX protocol,Linux,563
+Asio,CMake,561
+Modbus,Микроконтроллеры,561
+Protobuf,Python,561
+CMake,Kafka,559
+MFC,SQL,559
+SQL,Visual Studio,558
+Алгоритмы и структуры данных,Математика,555
+Компьютерное зрение,Математика,555
+C++17,Google Test,554
+Assembler,CMake,553
+Kafka,TCP/IP,553
+CMake,SIMD,552
+Docker,gRPC,552
+CMake,Математика,548
+STM32,Схемотехника,548
+CMake,Make,546
+Linux,MQTT,546
+ARM,Схемотехника,545
+Bash,C++20,545
+C++17,Паттерны проектирования,543
+FPGA,Linux,543
+Embedded Linux,GDB,539
+RTOS,Схемотехника,538
+RTOS,Драйверы,537
+CMake,Jenkins,534
+GDB,Make,534
+Linux,ROS,534
+Linux,OpenMP,531
+MFC,SVN,528
+Assembler,GDB,527
+SVN,Visual Studio,527
+Embedded,FPGA,526
+Visual Studio,WinAPI,524
+Boost,Redis,522
+CAN,GDB,522
+Embedded,MQTT,521
+Git,Visual Studio,521
+Docker,Protobuf,520
+STM32,Драйверы,520
+Boost,ООП,519
+MFC,WinAPI,518
+Embedded,Linux kernel,514
+Windows,Многопоточность,514
+FIX protocol,Git,509
+ARM,Драйверы,508
+DirectX,Многопоточность,508
+SQL,SVN,503
+Linux,Rust,497
+OpenGL,Многопоточность,497
+Asio,Boost,496
+STL,Unit-тестирование,495
+CMake,Linear algebra,492
+CAN,CMake,491
+GDB,Python,489
+Git,MFC,487
+CMake,CUDA,485
+SPI/I2C/UART,Схемотехника,485
+Boost,QML,478
+Windows,Математика,476
+DirectX,Алгоритмы и структуры данных,474
+Git,SVN,470
+CUDA,Компьютерное зрение,469
+PostgreSQL,gRPC,469
+CI/CD,Паттерны проектирования,468
+Kubernetes,Многопоточность,468
+Python,Redis,466
+Bash,PostgreSQL,465
+Git,Rust,464
+Linear algebra,Компьютерное зрение,463
+C++20,Docker,462
+CUDA,STL,461
+Docker,Redis,461
+OpenGL,Алгоритмы и структуры данных,460
+Modbus,STM32,457
+Boost,Kafka,456
+C++17,gRPC,455
+Google Test,Паттерны проектирования,454
+C#,Linux,452
+Modbus,RTOS,451
+PostgreSQL,Protobuf,451
+SPI/I2C/UART,Драйверы,451
+SVN,WinAPI,450
+Kubernetes,STL,449
+Bash,Low latency,448
+Delphi,MFC,448
+Delphi,ООП,447
+C#,Многопоточность,446
+CI/CD,Google Test,446
+Linux,Verilog,445
+Assembler,Make,443
+Delphi,Git,443
+QML,WinAPI,442
+Алготрейдинг,Многопоточность,440
+Delphi,Visual Studio,439
+Embedded Linux,Python,438
+Protobuf,Алгоритмы и структуры данных,437
+CMake,Схемотехника,436
+OpenGL,Математика,436
+gRPC,Алгоритмы и структуры данных,435
+Boost,Jenkins,434
+C,Visual Studio,434
+Python,Unreal Engine,434
+SQL,gRPC,433
+CAN,Make,432
+DirectX,Математика,432
+Bash,SQL,431
+DirectX,Windows,431
+C++,Java,430
+C,MFC,429
+C#,Алгоритмы и структуры данных,429
+ARM,Modbus,428
+Low latency,SIMD,428
+Protobuf,SQL,427
+Assembler,Python,426
+Low latency,Технический английский,426
+CAN,Embedded Linux,420
+C++,REST API,419
+Linear algebra,Многопоточность,419
+Linux,Unit-тестирование,418
+Assembler,Embedded Linux,417
+C++17,Protobuf,417
+Embedded,Verilog,417
+Docker,Компьютерное зрение,416
+Embedded Linux,Make,416
+Asio,Docker,415
+Linux,OpenGL,415
+C++,Clang,413
+Kafka,Python,409
+Jenkins,Python,408
+Agile,C++,407
+STL,Vulkan,407
+Asio,Python,406
+Pascal,Windows,405
+SIMD,TCP/IP,405
+WinAPI,Паттерны проектирования,404
+Delphi,SQL,403
+CMake,Драйверы,401
+Python,QML,401
+Perforce,STL,399
+C,WinAPI,395
+Python,ROS,395
+Boost,Технический английский,394
+GDB,Схемотехника,394
+C++20,PostgreSQL,393
+CUDA,Математика,391
+OpenMP,Python,391
+Assembler,CAN,390
+C,SVN,390
+CMake,Kubernetes,390
+CAN,Python,389
+Kubernetes,TCP/IP,389
+Компьютерное зрение,Технический английский,387
+PostgreSQL,Redis,386
+Unity,Unreal Engine,386
+Unreal Engine,Vulkan,385
+C,Паттерны проектирования,383
+Docker,Jenkins,382
+TCP/IP,Технический английский,381
+Wireshark,Многопоточность,381
+C#,OpenGL,380
+Modbus,SPI/I2C/UART,380
+QML,SQL,379
+Redis,Алгоритмы и структуры данных,379
+C++,Valgrind,378
+Docker,Kafka,378
+Linear algebra,Алгоритмы и структуры данных,378
+STL,Unity,378
+C#,CMake,377
+Make,Python,376
+SIMD,Алгоритмы и структуры данных,376
+C++20,SIMD,375
+OpenGL,Python,375
+Boost,OpenCV,374
+C++20,Технический английский,374
+MQTT,Микроконтроллеры,374
+Perforce,Unreal Engine,374
+Unit-тестирование,Windows,374
+Delphi,SVN,373
+C++,GCC,372
+Git,Pascal,371
+C#,Математика,370
+CMake,Modbus,370
+Delphi,WinAPI,370
+C++20,SQL,369
+Asio,PostgreSQL,368
+GDB,Драйверы,366
+STL,Wireshark,365
+C++17,SIMD,364
+DirectX,OpenGL,363
+CMake,Linux kernel,361
+Lua,STL,360
+FIX protocol,Многопоточность,358
+Boost,SIMD,357
+Embedded Linux,Схемотехника,356
+OpenCV,ROS,356
+Boost,WinAPI,352
+C,Delphi,352
+Redis,SQL,352
+C#,Python,351
+Kafka,PostgreSQL,350
+GDB,Modbus,349
+OpenCV,OpenMP,349
+Linear algebra,Windows,347
+Asio,SQL,345
+Bash,Паттерны проектирования,345
+FPGA,Микроконтроллеры,345
+Asio,Алгоритмы и структуры данных,344
+CAN,Драйверы,343
+Python,Схемотехника,343
+Bash,CI/CD,342
+CMake,OpenGL,341
+C++17,Redis,340
+Lua,Unreal Engine,338
+Make,Драйверы,336
+ARM,MQTT,335
+Perforce,Многопоточность,335
+Assembler,Драйверы,333
+Jenkins,Алгоритмы и структуры данных,332
+Python,WinAPI,331
+C++17,Технический английский,330
+CI/CD,Protobuf,324
+Google Test,Protobuf,324
+MQTT,STM32,324
+CMake,Unit-тестирование,323
+Jenkins,PostgreSQL,323
+Assembler,Схемотехника,321
+Linear algebra,OpenGL,321
+Boost,Kubernetes,320
+FPGA,RTOS,318
+gRPC,Паттерны проектирования,318
+CI/CD,gRPC,317
+DirectX,Linear algebra,316
+Kafka,Алгоритмы и структуры данных,316
+Linux kernel,Микроконтроллеры,316
+Embedded Linux,Драйверы,315
+ARM,FPGA,314
+OpenMP,STL,314
+CMake,Wireshark,313
+Make,Схемотехника,313
+ARM,Linux kernel,312
+Docker,Математика,311
+Linux kernel,STM32,311
+ROS,STL,311
+Google Test,gRPC,310
+Python,Драйверы,310
+Access,Git,309
+Asio,C++17,309
+CMake,ROS,309
+Vulkan,Многопоточность,309
+Bash,Google Test,308
+CUDA,Linear algebra,306
+TCP/IP,Wireshark,306
+Математика,Технический английский,306
+C++17,Jenkins,305
+CAN,Схемотехника,305
+Protobuf,Паттерны проектирования,304
+TCP/IP,Алготрейдинг,303
+Git,Java,300
+Jenkins,SQL,298
+Pascal,ООП,298
+CMake,Алготрейдинг,297
+Python,Алготрейдинг,297
+STL,Алготрейдинг,297
+Алгоритмы и структуры данных,Технический английский,297
+Kubernetes,Python,296
+MQTT,RTOS,296
+Modbus,Python,296
+Agile,Git,294
+Vulkan,Алгоритмы и структуры данных,294
+C++20,Паттерны проектирования,293
+FPGA,STM32,293
+Low latency,Алготрейдинг,293
+Clang,Git,292
+CMake,OpenMP,291
+Lua,Многопоточность,291
+OpenCV,SIMD,290
+C++20,CI/CD,289
+Linux kernel,RTOS,289
+Unity,Многопоточность,289
+C#,DirectX,288
+Git,REST API,286
+Perforce,Алгоритмы и структуры данных,286
+Rust,Многопоточность,286
+CMake,MQTT,285
+Perforce,Математика,283
+Make,Modbus,280
+DirectX,Python,279
+Unity,Windows,279
+C#,ООП,277
+Unity,Алгоритмы и структуры данных,277
+Linear algebra,Технический английский,276
+OpenGL,ООП,276
+Pascal,Visual Studio,276
+Assembler,Modbus,275
+CUDA,Технический английский,274
+Bash,gRPC,272
+CMake,FPGA,272
+MQTT,SPI/I2C/UART,271
+C++17,Алготрейдинг,270
+Kafka,SQL,270
+C++17,Kafka,269
+Redis,Паттерны проектирования,269
+Pascal,SQL,267
+Rust,STL,267
+Jenkins,Паттерны проектирования,266
+Unit-тестирование,ООП,266
+C++20,Google Test,265
+CMake,FIX protocol,265
+CUDA,Docker,265
+CAN,Modbus,264
+GCC,Git,264
+Vulkan,Математика,264
+Docker,Linear algebra,263
+Linux kernel,Python,263
+Asio,Google Test,262
+Docker,Kubernetes,262
+Git,Valgrind,262
+Google Test,Redis,262
+Embedded Linux,Modbus,260
+Python,Wireshark,260
+ROS,Компьютерное зрение,259
+Asio,Паттерны проектирования,258
+Unity,Математика,258
+C++20,Алготрейдинг,257
+CMake,Rust,257
+FIX protocol,STL,257
+MFC,Pascal,257
+Verilog,Микроконтроллеры,257
+Драйверы,Схемотехника,256
+Kubernetes,Алгоритмы и структуры данных,254
+FIX protocol,Low latency,253
+Lua,Алгоритмы и структуры данных,252
+Asio,CI/CD,251
+C,Pascal,251
+CI/CD,Redis,251
+Linux kernel,SPI/I2C/UART,250
+Алгоритмы и структуры данных,Алготрейдинг,250
+Pascal,WinAPI,249
+SIMD,Математика,248
+Boost,Wireshark,247
+MFC,Алгоритмы и структуры данных,246
+RTOS,Verilog,246
+Visual Studio,Алгоритмы и структуры данных,245
+Bash,Protobuf,244
+Boost,Математика,242
+Perforce,Windows,242
+Google Test,Jenkins,241
+Boost,OpenGL,240
+C#,Паттерны проектирования,239
+FIX protocol,TCP/IP,238
+Linux kernel,Многопоточность,238
+C#,Linear algebra,237
+Protobuf,gRPC,237
+FPGA,GDB,236
+OpenGL,QML,235
+Rust,TCP/IP,235
+Vulkan,Windows,235
+FPGA,SPI/I2C/UART,234
+GDB,Linux kernel,234
+Boost,Компьютерное зрение,233
+QML,Unit-тестирование,233
+SIMD,Технический английский,233
+WinAPI,Алгоритмы и структуры данных,232
+FIX protocol,Python,231
+STM32,Verilog,231
+OpenMP,Компьютерное зрение,230
+CMake,Verilog,228
+GDB,MQTT,228
+ARM,Verilog,227
+Docker,Технический английский,227
+Linux,Lua,227
+Linux,Unreal Engine,225
+SIMD,Компьютерное зрение,225
+C#,QML,224
+Linux,Perforce,224
+Google Test,Kafka,223
+Modbus,Драйверы,223
+Boost,Linear algebra,221
+Linux,REST API,221
+MQTT,Python,221
+CI/CD,Kafka,220
+SVN,Алгоритмы и структуры данных,220
+C++20,Protobuf,219
+Kubernetes,PostgreSQL,218
+C++20,FIX protocol,217
+Boost,Алготрейдинг,216
+C++17,Kubernetes,216
+OpenGL,Паттерны проектирования,216
+C++20,gRPC,215
+Delphi,Linux,215
+DirectX,Vulkan,215
+Kafka,Паттерны проектирования,215
+Linux,MFC,214
+Agile,Linux,213
+Assembler,MQTT,213
+Boost,C#,213
+OpenGL,Unity,213
+CI/CD,Jenkins,212
+DirectX,Unity,212
+Linux,Visual Studio,212
+Access,Linux,211
+Access,Windows,211
+Linux,Pascal,211
+Clang,Linux,210
+Linux,Vulkan,209
+Lua,Математика,209
+SPI/I2C/UART,Verilog,209
+Delphi,Pascal,207
+Java,Linux,207
+Kubernetes,SQL,207
+Redis,gRPC,207
+Linux,SVN,206
+Bash,Redis,205
+C,Многопоточность,205
+OpenMP,Математика,205
+DirectX,Linux,203
+Lua,Windows,203
+Docker,Wireshark,202
+Linux,Valgrind,201
+C++17,FIX protocol,200
+Embedded Linux,FPGA,200
+FIX protocol,Алгоритмы и структуры данных,200
+GCC,Linux,200
+Python,Rust,200
+Python,Vulkan,200
+Python,Verilog,199
+Wireshark,Алгоритмы и структуры данных,199
+Linux,Unity,198
+Pascal,SVN,198
+C#,SQL,197
+Linux kernel,STL,197
+Boost,Unit-тестирование,196
+Linux kernel,Make,196
+OpenGL,Perforce,196
+Unit-тестирование,Паттерны проектирования,195
+Bash,Jenkins,194
+Linear algebra,Vulkan,194
+Python,Unit-тестирование,194
+Boost,Rust,193
+FPGA,Python,193
+Boost,FIX protocol,192
+Delphi,Алгоритмы и структуры данных,192
+Modbus,Схемотехника,192
+Python,Unity,192
+Assembler,FPGA,191
+Bash,SIMD,191
+Embedded Linux,Linux kernel,190
+Assembler,Linux kernel,189
+OpenGL,Vulkan,187
+Embedded,STL,186
+Perforce,Python,186
+Bash,Технический английский,185
+Linear algebra,Unity,185
+Lua,Python,183
+ROS,Математика,183
+SQL,Wireshark,183
+C++20,Redis,182
+Linear algebra,SIMD,182
+DirectX,Perforce,181
+MQTT,Make,181
+Asio,Bash,180
+Boost,CUDA,180
+C++,addresssanitizer,180
+Asio,Protobuf,178
+Linear algebra,OpenMP,178
+SPI/I2C/UART,STL,178
+FPGA,Make,176
+Linear algebra,Perforce,176
+C,TCP/IP,175
+C#,WinAPI,175
+SIMD,Unreal Engine,175
+DirectX,Lua,174
+OpenGL,WinAPI,174
+C,Qt,173
+CAN,FPGA,173
+Embedded Linux,MQTT,173
+Kafka,Protobuf,173
+Lua,OpenGL,173
+C#,Perforce,172
+Access,C,171
+C#,Unity,169
+C++,conan,169
+GDB,Verilog,169
+STL,Микроконтроллеры,168
+C++,flatbuffers,167
+RTOS,STL,167
+Bash,Kafka,166
+C#,Vulkan,166
+C++,libuv,166
+C++,zeromq,166
+C++17,Wireshark,166
+Kafka,gRPC,166
+Protobuf,Redis,166
+OpenGL,SQL,165
+Docker,ROS,164
+Jenkins,Protobuf,164
+Unit-тестирование,WinAPI,164
+ARM,STL,163
+Access,SQL,163
+Access,ООП,163
+C++,doxygen,163
+Java,STL,163
+Kubernetes,Паттерны проектирования,163
+Rust,Алгоритмы и структуры данных,163
+Boost,C,162
+CAN,MQTT,162
+STL,STM32,162
+C++,catch2,161
+Delphi,STL,161
+Linear algebra,Lua,161
+Make,STL,161
+Asio,gRPC,160
+C++,bazel,160
+C++,sobjectizer,160
+CAN,Linux kernel,159
+Jenkins,gRPC,159
+Asio,C++20,158
+C++,meson,158
+C++,vcpkg,158
+PostgreSQL,Wireshark,157
+SIMD,Windows,157
+C++17,Rust,156
+Linux kernel,TCP/IP,156
+Assembler,Verilog,155
+CI/CD,Kubernetes,155
+Qt,Многопоточность,155
+CAN,Verilog,154
+CUDA,OpenMP,153
+Docker,OpenMP,153
+Linux kernel,Low latency,152
+Modbus,STL,151
+SQL,Unit-тестирование,151
+CUDA,ROS,150
+RTOS,Многопоточность,150
+STL,Драйверы,150
+Assembler,STL,149
+C++,ninja,149
+C++20,Linux kernel,149
+Google Test,Kubernetes,149
+C++20,Jenkins,148
+MQTT,Схемотехника,147
+C#,Lua,146
+Docker,SIMD,146
+Embedded Linux,STL,146
+Make,Verilog,146
+STL,Схемотехника,146
+C++20,Kafka,145
+Linear algebra,ROS,145
+REST API,STL,145
+Access,Visual Studio,144
+C,C++17,144
+GDB,STL,144
+Linux kernel,Драйверы,144
+MFC,STL,144
+C++17,Linux kernel,143
+C,Математика,142
+CAN,STL,141
+CMake,Unreal Engine,141
+ROS,Технический английский,141
+FPGA,Драйверы,140
+Wireshark,Паттерны проектирования,140
+C,OpenGL,139
+MQTT,Драйверы,139
+STL,SVN,139
+Boost,OpenMP,138
+OpenMP,Технический английский,137
+SPI/I2C/UART,Многопоточность,137
+TCP/IP,Windows,137
+CUDA,SIMD,136
+Embedded,Многопоточность,136
+Qt,Алгоритмы и структуры данных,136
+STL,Visual Studio,136
+Linux kernel,Схемотехника,135
+Pascal,Алгоритмы и структуры данных,135
+Python,Visual Studio,135
+C,PostgreSQL,134
+Многопоточность,ООП,134
+Asio,Redis,133
+Clang,STL,133
+Embedded Linux,Verilog,133
+Kafka,Redis,133
+C,Docker,132
+Access,MFC,131
+Boost,Linux kernel,131
+C,C++20,131
+C,Unreal Engine,131
+Pascal,STL,131
+Assembler,Многопоточность,130
+C,QML,130
+FPGA,STL,130
+FPGA,Схемотехника,130
+Python,SVN,130
+Алготрейдинг,Технический английский,130
+Agile,STL,128
+C,Google Test,128
+C,Технический английский,128
+Make,Многопоточность,128
+STL,Verilog,128
+Bash,C,127
+Access,CMake,126
+CMake,REST API,126
+WinAPI,Многопоточность,126
+C,C#,125
+C,Wireshark,125
+CMake,Vulkan,125
+MFC,Python,125
+MQTT,STL,125
+Драйверы,Многопоточность,125
+Микроконтроллеры,Многопоточность,125
+C,Kubernetes,124
+C,Lua,124
+C,Protobuf,124
+C,Valgrind,124
+FPGA,Modbus,124
+Linux kernel,Алгоритмы и структуры данных,124
+Qt,TCP/IP,124
+STL,Valgrind,124
+Agile,CMake,123
+Bash,Алготрейдинг,123
+C,Linear algebra,123
+Docker,Rust,123
+Rust,SQL,123
+Access,SVN,122
+Agile,Python,122
+C,gRPC,122
+CMake,Delphi,122
+Jenkins,Redis,122
+SPI/I2C/UART,Алгоритмы и структуры данных,122
+Asio,C,121
+C,CI/CD,121
+CMake,Lua,121
+Delphi,Python,121
+RTOS,TCP/IP,121
+Unity,Vulkan,121
+C,OpenMP,120
+Git,addresssanitizer,120
+Jenkins,Kafka,120
+Linux kernel,Modbus,120
+SIMD,Алготрейдинг,120
+STM32,Многопоточность,120
+Git,catch2,119
+Git,sobjectizer,119
+ARM,Многопоточность,118
+Agile,C,118
+CMake,Valgrind,118
+Embedded,TCP/IP,118
+Embedded,Алгоритмы и структуры данных,118
+Bash,Kubernetes,117
+CMake,Java,117
+GCC,STL,117
+Asio,Jenkins,116
+Boost,ROS,116
+CMake,Unity,116
+CMake,Visual Studio,116
+Delphi,Многопоточность,116
+Многопоточность,Схемотехника,116
+Bash,FIX protocol,115
+C,Perforce,115
+C,Компьютерное зрение,115
+CMake,MFC,115
+Git,libuv,115
+Access,Алгоритмы и структуры данных,114
+Boost,Embedded,114
+C,CUDA,114
+C,Kafka,114
+C,Low latency,114
+Embedded,Windows,114
+Git,zeromq,114
+Modbus,Многопоточность,114
+C,ROS,113
+Git,conan,113
+Git,doxygen,113
+MQTT,Modbus,113
+Access,Python,112
+C,GCC,112
+C,Jenkins,112
+C,OpenCV,112
+C,Redis,112
+C,SIMD,112
+CAN,Многопоточность,112
+Git,meson,112
+Google Test,Wireshark,112
+Access,STL,111
+C,Java,111
+C,Unity,111
+C,Vulkan,111
+CMake,DirectX,111
+Perforce,Unity,111
+Perforce,Vulkan,111
+STM32,Алгоритмы и структуры данных,111
+TCP/IP,ООП,111
+Unit-тестирование,Многопоточность,111
+Access,WinAPI,110
+Pascal,Многопоточность,110
+Asio,Kafka,109
+GCC,Python,109
+OpenCV,Windows,109
+RTOS,Алгоритмы и структуры данных,109
+ARM,Алгоритмы и структуры данных,108
+C,Unit-тестирование,108
+C++20,Rust,108
+CMake,Pascal,108
+Clang,Python,108
+Docker,Qt,108
+Embedded,Qt,108
+OpenCV,Многопоточность,108
+Pascal,Python,108
+Алгоритмы и структуры данных,Микроконтроллеры,108
+C++20,Kubernetes,107
+Embedded Linux,Многопоточность,107
+FIX protocol,Технический английский,107
+Git,flatbuffers,107
+Java,Многопоточность,107
+OpenMP,Многопоточность,107
+Verilog,Схемотехника,107
+CMake,GCC,106
+FIX protocol,SIMD,106
+Git,bazel,106
+Kubernetes,gRPC,106
+C,REST API,105
+C++17,Windows,105
+Embedded,SQL,105
+GDB,Многопоточность,105
+Git,vcpkg,105
+PostgreSQL,Rust,105
+Python,REST API,105
+QML,Многопоточность,105
+Алгоритмы и структуры данных,Схемотехника,105
+C,DirectX,104
+DirectX,SIMD,104
+Docker,Windows,104
+C,Алготрейдинг,103
+CMake,Perforce,103
+FPGA,Многопоточность,103
+Git,ninja,103
+Java,Python,103
+Linux,catch2,103
+CMake,Clang,102
+CMake,SVN,102
+CUDA,Многопоточность,102
+Agile,Многопоточность,101
+REST API,Многопоточность,101
+Docker,Embedded,100
+Linux kernel,Технический английский,100
+SPI/I2C/UART,TCP/IP,100
+Wireshark,gRPC,100
+Компьютерное зрение,Многопоточность,100
+Assembler,Boost,99
+Assembler,Алгоритмы и структуры данных,99
+C,Rust,99
+C#,Unit-тестирование,99
+CI/CD,Wireshark,99
+Lua,Vulkan,99
+PostgreSQL,Windows,99
+Python,Valgrind,99
+Visual Studio,Многопоточность,99
+Windows,Микроконтроллеры,99
+OpenCV,SQL,98
+STM32,Windows,98
+Boost,RTOS,97
+Boost,Unreal Engine,97
+C,FIX protocol,97
+Embedded Linux,TCP/IP,97
+FPGA,Алгоритмы и структуры данных,97
+Low latency,Windows,97
+MFC,Многопоточность,97
+SVN,Многопоточность,97
+Verilog,Драйверы,97
+Access,Многопоточность,96
+Boost,SPI/I2C/UART,96
+Boost,STM32,96
+ARM,Boost,95
+Low latency,Rust,95
+MQTT,Многопоточность,95
+Access,Delphi,94
+CAN,Алгоритмы и структуры данных,94
+OpenGL,SIMD,94
+ROS,Многопоточность,94
+ARM,Windows,93
+Bash,Wireshark,93
+Boost,DirectX,93
+Boost,GDB,93
+C++17,Embedded,93
+Embedded,Google Test,93
+Embedded,Математика,93
+Embedded Linux,Алгоритмы и структуры данных,93
+GDB,Windows,93
+GDB,Алгоритмы и структуры данных,93
+Kubernetes,Protobuf,93
+TCP/IP,Драйверы,93
+Docker,ООП,92
+Embedded,WinAPI,92
+Linux,ninja,92
+SPI/I2C/UART,Windows,92
+Windows,Компьютерное зрение,92
+Linux,addresssanitizer,91
+Modbus,TCP/IP,91
+OpenCV,Алгоритмы и структуры данных,91
+Clang,Многопоточность,90
+Embedded,ООП,90
+Make,Windows,90
+Modbus,Алгоритмы и структуры данных,90
+Qt,STM32,90
+Windows,Технический английский,90
+Assembler,TCP/IP,89
+Boost,CAN,89
+Boost,REST API,89
+C++17,Qt,89
+Linux,conan,89
+Lua,Perforce,89
+Make,Qt,89
+Микроконтроллеры,Паттерны проектирования,89
+Boost,Visual Studio,88
+CUDA,Алгоритмы и структуры данных,88
+Docker,RTOS,88
+Jenkins,Windows,88
+Lua,Unity,88
+OpenCV,TCP/IP,88
+Qt,Visual Studio,88
+RTOS,Windows,88
+STM32,TCP/IP,88
+C++17,ООП,87
+Jenkins,Kubernetes,87
+OpenCV,ООП,87
+Perforce,TCP/IP,87
+PostgreSQL,Qt,87
+QML,Алгоритмы и структуры данных,87
+Agile,Boost,86
+Embedded,Паттерны проектирования,86
+OpenCV,Qt,86
+Микроконтроллеры,ООП,86
+Asio,Windows,85
+Boost,Perforce,85
+C#,TCP/IP,85
+C++20,Embedded,85
+Embedded,Технический английский,85
+Linear algebra,TCP/IP,85
+Linux,flatbuffers,85
+Linux,sobjectizer,85
+Qt,Технический английский,85
+TCP/IP,WinAPI,85
+Verilog,Многопоточность,85
+Windows,Драйверы,85
+Алгоритмы и структуры данных,Компьютерное зрение,85
+Agile,TCP/IP,84
+Boost,Embedded Linux,84
+Boost,Make,84
+Boost,Драйверы,84
+Boost,Схемотехника,84
+C,Clang,84
+CAN,TCP/IP,84
+Embedded Linux,Windows,84
+Kubernetes,Redis,84
+Linear algebra,SQL,84
+Linux,doxygen,84
+Linux,libuv,84
+OpenMP,Windows,84
+Qt,Микроконтроллеры,84
+SQL,Микроконтроллеры,84
+ARM,Паттерны проектирования,83
+Bash,ООП,83
+CI/CD,Windows,83
+Delphi,TCP/IP,83
+STM32,ООП,83
+TCP/IP,Схемотехника,83
+Windows,gRPC,83
+Математика,ООП,83
+Asio,Kubernetes,82
+Bash,Windows,82
+MFC,Qt,82
+Qt,Математика,82
+ARM,TCP/IP,81
+Bash,Linux kernel,81
+C++20,Windows,81
+GCC,Многопоточность,81
+Linux kernel,MQTT,81
+OpenMP,Алгоритмы и структуры данных,81
+TCP/IP,Математика,81
+Verilog,Windows,81
+ARM,Docker,80
+Boost,Modbus,80
+C++20,Qt,80
+C++20,Wireshark,80
+Java,Qt,80
+Linux,meson,80
+Linux,zeromq,80
+Make,Алгоритмы и структуры данных,80
+Rust,Паттерны проектирования,80
+Windows,Wireshark,80
+Boost,Java,79
+Boost,Lua,79
+C++20,ООП,79
+Embedded,PostgreSQL,79
+Embedded,gRPC,79
+GDB,Qt,79
+Make,TCP/IP,79
+Modbus,Windows,79
+OpenMP,TCP/IP,79
+RTOS,SQL,79
+Valgrind,Windows,79
+Алгоритмы и структуры данных,Драйверы,79
+Assembler,Docker,78
+CI/CD,ООП,78
+Embedded,Kubernetes,78
+Embedded,Visual Studio,78
+GDB,TCP/IP,78
+Low latency,ООП,78
+OpenMP,ROS,78
+Qt,RTOS,78
+REST API,Windows,78
+SQL,STM32,78
+SQL,Драйверы,78
+SQL,Технический английский,78
+TCP/IP,Unit-тестирование,78
+TCP/IP,Visual Studio,78
+TCP/IP,Микроконтроллеры,78
+ARM,SQL,77
+Assembler,SQL,77
+Bash,Rust,77
+Boost,Verilog,77
+C++17,Linear algebra,77
+C++17,SPI/I2C/UART,77
+Embedded,OpenGL,77
+Qt,Драйверы,77
+REST API,Алгоритмы и структуры данных,77
+ROS,SIMD,77
+SQL,Математика,77
+TCP/IP,Unreal Engine,77
+Bash,Qt,76
+C++17,Unreal Engine,76
+FPGA,Windows,76
+Java,Алгоритмы и структуры данных,76
+Kafka,Kubernetes,76
+OpenGL,Unit-тестирование,76
+C#,SIMD,75
+Qt,Redis,75
+RTOS,Паттерны проектирования,75
+SPI/I2C/UART,SQL,75
+STM32,Паттерны проектирования,75
+ARM,ООП,74
+Agile,Алгоритмы и структуры данных,74
+Asio,Qt,74
+CI/CD,Qt,74
+Docker,Unreal Engine,74
+Embedded,Kafka,74
+FPGA,Linux kernel,74
+FPGA,TCP/IP,74
+Java,SQL,74
+Java,Windows,74
+Linux,vcpkg,74
+Lua,TCP/IP,74
+Make,SQL,74
+PostgreSQL,ООП,74
+SPI/I2C/UART,ООП,74
+SVN,TCP/IP,74
+TCP/IP,Vulkan,74
+Windows,Схемотехника,74
+Bash,Embedded,73
+Boost,MFC,73
+Boost,Микроконтроллеры,73
+C++17,STM32,73
+Embedded,Jenkins,73
+Embedded,Linear algebra,73
+Embedded,MFC,73
+Lua,ООП,73
+Protobuf,Wireshark,73
+QML,TCP/IP,73
+ROS,Windows,73
+Valgrind,Многопоточность,73
+Математика,Паттерны проектирования,73
+Assembler,Windows,72
+Boost,SVN,72
+C#,Embedded,72
+Embedded,SVN,72
+Embedded,Unreal Engine,72
+Google Test,Windows,72
+Jenkins,Qt,72
+Kafka,Windows,72
+Linear algebra,Qt,72
+Linux kernel,Qt,72
+MQTT,TCP/IP,72
+Make,ООП,72
+OpenGL,TCP/IP,72
+ROS,Алгоритмы и структуры данных,72
+SPI/I2C/UART,Математика,72
+SPI/I2C/UART,Паттерны проектирования,72
+Boost,Delphi,71
+Boost,Pascal,71
+Boost,Vulkan,71
+C#,C++17,71
+CUDA,TCP/IP,71
+Embedded,GCC,71
+Embedded,Protobuf,71
+FIX protocol,Алготрейдинг,71
+FPGA,MQTT,71
+Linux kernel,SIMD,71
+Linux kernel,SQL,71
+Linux kernel,Windows,71
+Modbus,Verilog,71
+OpenMP,ООП,71
+PostgreSQL,Микроконтроллеры,71
+RTOS,ООП,71
+ООП,Технический английский,71
+Access,TCP/IP,70
+Boost,Valgrind,70
+C++17,Математика,70
+CAN,SQL,70
+Embedded,ROS,70
+Embedded,Valgrind,70
+Embedded Linux,Qt,70
+Embedded Linux,SQL,70
+Embedded Linux,Паттерны проектирования,70
+Linux,bazel,70
+OpenMP,SIMD,70
+Protobuf,Windows,70
+Qt,Unreal Engine,70
+REST API,TCP/IP,70
+Redis,ООП,70
+SIMD,Vulkan,70
+SQL,Vulkan,70
+TCP/IP,Unity,70
+Verilog,Алгоритмы и структуры данных,70
+Wireshark,ООП,70
+ООП,Схемотехника,70
+Asio,Wireshark,69
+C++17,Микроконтроллеры,69
+C++20,RTOS,69
+CAN,Windows,69
+DirectX,TCP/IP,69
+Embedded,Pascal,69
+GDB,SQL,69
+Kafka,Wireshark,69
+Lua,Qt,69
+Protobuf,Qt,69
+Qt,gRPC,69
+Драйверы,ООП,69
+Boost,Clang,68
+CAN,Qt,68
+CAN,ООП,68
+CI/CD,Rust,68
+DirectX,SQL,68
+DirectX,ООП,68
+Embedded,OpenMP,68
+Google Test,Qt,68
+Linear algebra,PostgreSQL,68
+Low latency,Qt,68
+MFC,TCP/IP,68
+OpenCV,Паттерны проектирования,68
+OpenGL,Микроконтроллеры,68
+Unreal Engine,ООП,68
+Agile,Embedded,67
+C++17,WinAPI,67
+CUDA,Windows,67
+Docker,SPI/I2C/UART,67
+Embedded,Low latency,67
+Embedded,OpenCV,67
+Embedded,QML,67
+Embedded,SIMD,67
+Embedded,Wireshark,67
+Embedded,Алготрейдинг,67
+FPGA,SQL,67
+GCC,Windows,67
+Google Test,SPI/I2C/UART,67
+Google Test,ООП,67
+Linux kernel,Verilog,67
+Low latency,SQL,67
+Lua,SQL,67
+Qt,Unity,67
+Qt,Verilog,67
+Rust,Windows,67
+SIMD,ООП,67
+SQL,Компьютерное зрение,67
+Windows,Алготрейдинг,67
+Паттерны проектирования,Схемотехника,67
+Assembler,C++20,66
+C++17,RTOS,66
+CI/CD,Embedded,66
+Docker,Микроконтроллеры,66
+Embedded,FIX protocol,66
+Qt,REST API,66
+Qt,ROS,66
+Qt,SPI/I2C/UART,66
+Qt,Vulkan,66
+Qt,Компьютерное зрение,66
+SQL,Схемотехника,66
+TCP/IP,Компьютерное зрение,66
+Unit-тестирование,Алгоритмы и структуры данных,66
+Access,Boost,65
+Assembler,Qt,65
+CUDA,Embedded,65
+Clang,Алгоритмы и структуры данных,65
+Docker,GDB,65
+Docker,Low latency,65
+Docker,QML,65
+Docker,STM32,65
+Embedded,Perforce,65
+FPGA,Qt,65
+GCC,Алгоритмы и структуры данных,65
+MQTT,Алгоритмы и структуры данных,65
+MQTT,ООП,65
+Make,Паттерны проектирования,65
+PostgreSQL,Математика,65
+SQL,Unreal Engine,65
+SQL,Verilog,65
+WinAPI,Микроконтроллеры,65
+gRPC,ООП,65
+Микроконтроллеры,Технический английский,65
+ARM,Qt,64
+Assembler,C++17,64
+Boost,FPGA,64
+Docker,WinAPI,64
+FIX protocol,Windows,64
+Google Test,STM32,64
+Linear algebra,SPI/I2C/UART,64
+Perforce,SQL,64
+PostgreSQL,WinAPI,64
+Qt,Схемотехника,64
+STL,ninja,64
+STM32,Математика,64
+WinAPI,Математика,64
+Математика,Микроконтроллеры,64
+Asio,Embedded,63
+C++20,STM32,63
+C++20,Математика,63
+CAN,Паттерны проектирования,63
+CI/CD,RTOS,63
+Docker,SVN,63
+Embedded Linux,ООП,63
+GCC,ООП,63
+MQTT,Verilog,63
+OpenMP,Qt,63
+Pascal,TCP/IP,63
+Perforce,SIMD,63
+Protobuf,Rust,63
+Qt,Rust,63
+Redis,Wireshark,63
+SIMD,Unity,63
+SQL,Алготрейдинг,63
+Unreal Engine,Паттерны проектирования,63
+Valgrind,ООП,63
+Boost,Unity,62
+C++17,Схемотехника,62
+Delphi,Embedded,62
+DirectX,Qt,62
+Embedded,Unity,62
+Embedded,Vulkan,62
+FPGA,Verilog,62
+GDB,ООП,62
+Kubernetes,Windows,62
+Low latency,STM32,62
+MQTT,SQL,62
+PostgreSQL,SPI/I2C/UART,62
+QML,STM32,62
+Qt,Wireshark,62
+SQL,Unity,62
+ARM,Google Test,61
+Bash,STM32,61
+C++17,OpenCV,61
+C++17,Компьютерное зрение,61
+C++20,Микроконтроллеры,61
+Clang,TCP/IP,61
+Docker,MQTT,61
+Embedded Linux,Google Test,61
+GCC,TCP/IP,61
+GDB,Паттерны проектирования,61
+Google Test,Rust,61
+Linear algebra,Микроконтроллеры,61
+Linux kernel,ООП,61
+OpenCV,PostgreSQL,61
+PostgreSQL,Unreal Engine,61
+Protobuf,ООП,61
+Redis,Windows,61
+STL,libuv,61
+Verilog,ООП,61
+Visual Studio,Паттерны проектирования,61
+Паттерны проектирования,Технический английский,61
+Agile,ООП,60
+Assembler,ООП,60
+Bash,Микроконтроллеры,60
+Boost,GCC,60
+C++20,OpenCV,60
+CUDA,ООП,60
+Clang,SQL,60
+Google Test,RTOS,60
+Lua,SIMD,60
+MQTT,Windows,60
+OpenCV,Unreal Engine,60
+OpenGL,RTOS,60
+Pascal,Qt,60
+PostgreSQL,RTOS,60
+QML,SPI/I2C/UART,60
+QML,Микроконтроллеры,60
+ROS,SQL,60
+SIMD,SQL,60
+Unreal Engine,Микроконтроллеры,60
+Компьютерное зрение,ООП,60
+Asio,ООП,59
+C,conan,59
+C#,Docker,59
+C++17,MFC,59
+CI/CD,STM32,59
+Clang,Windows,59
+Clang,ООП,59
+DirectX,Микроконтроллеры,59
+Docker,Embedded Linux,59
+Docker,MFC,59
+Docker,Modbus,59
+Embedded,Lua,59
+Embedded,Компьютерное зрение,59
+Java,TCP/IP,59
+Jenkins,Wireshark,59
+Kubernetes,Qt,59
+Kubernetes,ООП,59
+Modbus,Qt,59
+OpenCV,QML,59
+Perforce,ООП,59
+PostgreSQL,STM32,59
+Protobuf,SPI/I2C/UART,59
+RTOS,Математика,59
+SQL,Valgrind,59
+ARM,Bash,58
+ARM,Математика,58
+Agile,Windows,58
+Bash,Математика,58
+Delphi,Qt,58
+Embedded,Java,58
+Low latency,Паттерны проектирования,58
+Protobuf,RTOS,58
+Qt,SVN,58
+ROS,TCP/IP,58
+RTOS,Visual Studio,58
+STL,flatbuffers,58
+STM32,WinAPI,58
+Valgrind,Алгоритмы и структуры данных,58
+Алготрейдинг,ООП,58
+ARM,PostgreSQL,57
+ARM,Protobuf,57
+Boost,MQTT,57
+C++17,CAN,57
+C++20,WinAPI,57
+CI/CD,SPI/I2C/UART,57
+Docker,Make,57
+FPGA,ООП,57
+GDB,Математика,57
+Linear algebra,Паттерны проектирования,57
+Perforce,Паттерны проектирования,57
+REST API,SQL,57
+SPI/I2C/UART,WinAPI,57
+STM32,Visual Studio,57
+Unity,ООП,57
+Vulkan,ООП,57
+gRPC,Микроконтроллеры,57
+ARM,C++20,56
+ARM,gRPC,56
+Access,Embedded,56
+Assembler,Математика,56
+Assembler,Паттерны проектирования,56
+CI/CD,Микроконтроллеры,56
+CMake,meson,56
+GDB,OpenCV,56
+Modbus,PostgreSQL,56
+OpenMP,SQL,56
+Python,conan,56
+QML,RTOS,56
+SPI/I2C/UART,Unreal Engine,56
+STL,sobjectizer,56
+STM32,Unreal Engine,56
+STM32,gRPC,56
+SVN,Паттерны проектирования,56
+TCP/IP,Verilog,56
+ARM,CI/CD,55
+ARM,OpenGL,55
+ARM,QML,55
+ARM,Redis,55
+Assembler,Bash,55
+Assembler,WinAPI,55
+C++17,Make,55
+C++17,OpenGL,55
+C++17,SVN,55
+C++17,Visual Studio,55
+C++20,Unreal Engine,55
+CMake,catch2,55
+DirectX,Embedded,55
+Embedded,REST API,55
+GCC,SQL,55
+Low latency,WinAPI,55
+Lua,SPI/I2C/UART,55
+Modbus,Паттерны проектирования,55
+Qt,Алготрейдинг,55
+Rust,Технический английский,55
+STL,conan,55
+STM32,Технический английский,55
+ARM,DirectX,54
+ARM,Unreal Engine,54
+Access,Pascal,54
+Access,Qt,54
+C,bazel,54
+C#,Микроконтроллеры,54
+Docker,Vulkan,54
+Embedded,Redis,54
+Embedded,Rust,54
+FIX protocol,SQL,54
+Google Test,Микроконтроллеры,54
+Java,ООП,54
+MFC,Микроконтроллеры,54
+Modbus,SQL,54
+Pascal,Микроконтроллеры,54
+PostgreSQL,Visual Studio,54
+Protobuf,Микроконтроллеры,54
+Python,sobjectizer,54
+Qt,Valgrind,54
+RTOS,Unreal Engine,54
+Rust,ООП,54
+STL,bazel,54
+SVN,Микроконтроллеры,54
+Access,Docker,53
+Agile,Qt,53
+C++17,Vulkan,53
+CUDA,Qt,53
+CUDA,SQL,53
+Docker,FIX protocol,53
+Docker,Unity,53
+Embedded Linux,QML,53
+Kafka,STM32,53
+Kafka,ООП,53
+Lua,RTOS,53
+Make,PostgreSQL,53
+Perforce,RTOS,53
+Perforce,SPI/I2C/UART,53
+RTOS,Технический английский,53
+Unity,Паттерны проектирования,53
+ARM,C++17,52
+ARM,Kafka,52
+Agile,SQL,52
+C#,RTOS,52
+C++17,GDB,52
+C++17,Lua,52
+C++20,Linear algebra,52
+CAN,Математика,52
+Delphi,Docker,52
+Docker,Алготрейдинг,52
+Docker,Схемотехника,52
+Java,Паттерны проектирования,52
+Jenkins,ООП,52
+Kafka,RTOS,52
+Low latency,Математика,52
+OpenCV,Микроконтроллеры,52
+PostgreSQL,Технический английский,52
+Python,vcpkg,52
+REST API,ООП,52
+ROS,ООП,52
+RTOS,Redis,52
+SPI/I2C/UART,Технический английский,52
+STL,doxygen,52
+Valgrind,Микроконтроллеры,52
+addresssanitizer,Многопоточность,52
+ARM,Lua,51
+Assembler,Unreal Engine,51
+C++17,Embedded Linux,51
+C++20,DirectX,51
+CAN,Docker,51
+CAN,PostgreSQL,51
+CMake,addresssanitizer,51
+Docker,Linux kernel,51
+Docker,Visual Studio,51
+Google Test,Математика,51
+Jenkins,Математика,51
+Linear algebra,ООП,51
+Linux kernel,Алготрейдинг,51
+MFC,RTOS,51
+MFC,STM32,51
+MFC,Паттерны проектирования,51
+OpenGL,STM32,51
+OpenGL,Драйверы,51
+Pascal,Паттерны проектирования,51
+Python,libuv,51
+SPI/I2C/UART,gRPC,51
+STL,addresssanitizer,51
+STL,zeromq,51
+Vulkan,Микроконтроллеры,51
+sobjectizer,Многопоточность,51
+Компьютерное зрение,Микроконтроллеры,51
+ARM,Asio,50
+Agile,Паттерны проектирования,50
+Assembler,Технический английский,50
+C#,STM32,50
+C++17,DirectX,50
+C++17,MQTT,50
+C++17,Pascal,50
+C++17,Unity,50
+C++17,Драйверы,50
+C++20,OpenGL,50
+C++20,Драйверы,50
+CAN,OpenCV,50
+CI/CD,Linear algebra,50
+CUDA,Микроконтроллеры,50
+Clang,Qt,50
+Docker,Lua,50
+Docker,OpenGL,50
+Docker,Verilog,50
+Embedded Linux,Математика,50
+FIX protocol,Математика,50
+GDB,PostgreSQL,50
+Kubernetes,RTOS,50
+Low latency,RTOS,50
+Low latency,Unreal Engine,50
+MFC,PostgreSQL,50
+Modbus,ООП,50
+OpenGL,PostgreSQL,50
+PostgreSQL,QML,50
+PostgreSQL,SIMD,50
+Qt,SIMD,50
+RTOS,WinAPI,50
+Rust,SIMD,50
+SIMD,STM32,50
+STM32,SVN,50
+TCP/IP,Valgrind,50
+Unreal Engine,WinAPI,50
+Verilog,Паттерны проектирования,50
+Драйверы,Паттерны проектирования,50
+ARM,Linear algebra,49
+ARM,Visual Studio,49
+Assembler,SIMD,49
+Bash,Embedded Linux,49
+Bash,Linear algebra,49
+C,libuv,49
+C,meson,49
+C#,C++20,49
+C#,OpenCV,49
+C++17,CUDA,49
+CI/CD,WinAPI,49
+Delphi,RTOS,49
+DirectX,Паттерны проектирования,49
+Embedded,Unit-тестирование,49
+Google Test,OpenCV,49
+Jenkins,Микроконтроллеры,49
+MFC,OpenCV,49
+MQTT,Qt,49
+REST API,Паттерны проектирования,49
+RTOS,gRPC,49
+SIMD,SPI/I2C/UART,49
+Unreal Engine,Компьютерное зрение,49
+Unreal Engine,Схемотехника,49
+Visual Studio,Микроконтроллеры,49
+Asio,Микроконтроллеры,48
+Assembler,PostgreSQL,48
+Bash,OpenCV,48
+Bash,RTOS,48
+C,ninja,48
+C++17,Delphi,48
+C++20,CUDA,48
+C++20,SPI/I2C/UART,48
+CMake,bazel,48
+Delphi,Математика,48
+Docker,Pascal,48
+Docker,Perforce,48
+Embedded Linux,Linear algebra,48
+Embedded Linux,PostgreSQL,48
+FIX protocol,Linux kernel,48
+FPGA,Паттерны проектирования,48
+Google Test,Make,48
+Google Test,Компьютерное зрение,48
+Linear algebra,STM32,48
+Low latency,Микроконтроллеры,48
+Lua,STM32,48
+Make,WinAPI,48
+Modbus,Математика,48
+OpenCV,STM32,48
+QML,Математика,48
+STL,meson,48
+STL,vcpkg,48
+Unreal Engine,Visual Studio,48
+Unreal Engine,Технический английский,48
+Verilog,Математика,48
+WinAPI,gRPC,48
+WinAPI,Драйверы,48
+WinAPI,Компьютерное зрение,48
+Компьютерное зрение,Паттерны проектирования,48
+ARM,Valgrind,47
+Assembler,Low latency,47
+Assembler,OpenGL,47
+Bash,SPI/I2C/UART,47
+Bash,Компьютерное зрение,47
+C,vcpkg,47
+C++17,ROS,47
+CI/CD,Embedded Linux,47
+CMake,sobjectizer,47
+CUDA,Паттерны проектирования,47
+Delphi,Паттерны проектирования,47
+DirectX,Docker,47
+FIX protocol,ООП,47
+GCC,Qt,47
+GDB,Google Test,47
+GDB,QML,47
+GDB,WinAPI,47
+Java,Микроконтроллеры,47
+Linux kernel,WinAPI,47
+Lua,Микроконтроллеры,47
+OpenCV,WinAPI,47
+Python,zeromq,47
+QML,Unreal Engine,47
+ROS,Паттерны проектирования,47
+RTOS,SIMD,47
+STM32,Unit-тестирование,47
+Vulkan,Паттерны проектирования,47
+Access,C++17,46
+Assembler,C#,46
+Assembler,CI/CD,46
+C,catch2,46
+C#,SPI/I2C/UART,46
+C#,Visual Studio,46
+C++17,Modbus,46
+C++17,REST API,46
+C++20,CAN,46
+C++20,Make,46
+C++20,QML,46
+CAN,CI/CD,46
+CAN,MFC,46
+CI/CD,Математика,46
+CMake,ninja,46
+DirectX,STM32,46
+Kafka,Qt,46
+Kafka,SPI/I2C/UART,46
+Kubernetes,STM32,46
+Low latency,SVN,46
+Perforce,Qt,46
+PostgreSQL,Unity,46
+Python,doxygen,46
+QML,Visual Studio,46
+SIMD,Микроконтроллеры,46
+STL,catch2,46
+STM32,Unity,46
+ARM,CUDA,45
+ARM,OpenCV,45
+ARM,Технический английский,45
+Agile,STM32,45
+C,flatbuffers,45
+C++17,Java,45
+C++17,OpenMP,45
+C++17,QML,45
+CI/CD,Low latency,45
+CMake,vcpkg,45
+Delphi,Микроконтроллеры,45
+Docker,GCC,45
+Jenkins,WinAPI,45
+Linear algebra,Схемотехника,45
+Low latency,OpenCV,45
+Low latency,Схемотехника,45
+OpenGL,SPI/I2C/UART,45
+Protobuf,SVN,45
+RTOS,Компьютерное зрение,45
+Redis,Микроконтроллеры,45
+SIMD,Паттерны проектирования,45
+SVN,Математика,45
+Valgrind,WinAPI,45
+Visual Studio,gRPC,45
+Алготрейдинг,Микроконтроллеры,45
+ARM,Agile,44
+ARM,Low latency,44
+ARM,SIMD,44
+ARM,SVN,44
+ARM,Wireshark,44
+Access,Паттерны проектирования,44
+Agile,Docker,44
+Asio,SPI/I2C/UART,44
+Assembler,OpenCV,44
+Bash,OpenGL,44
+C,doxygen,44
+C#,PostgreSQL,44
+C++20,Embedded Linux,44
+CI/CD,OpenGL,44
+CMake,flatbuffers,44
+CMake,libuv,44
+CUDA,Unreal Engine,44
+Delphi,Unreal Engine,44
+DirectX,PostgreSQL,44
+Docker,Unit-тестирование,44
+Docker,Драйверы,44
+FPGA,PostgreSQL,44
+GDB,OpenGL,44
+GDB,Unreal Engine,44
+Google Test,Low latency,44
+Lua,WinAPI,44
+MFC,Unreal Engine,44
+MFC,Математика,44
+OpenCV,OpenGL,44
+QML,Схемотехника,44
+QML,Технический английский,44
+REST API,SPI/I2C/UART,44
+RTOS,SVN,44
+STM32,Valgrind,44
+WinAPI,Технический английский,44
+vcpkg,Многопоточность,44
+ARM,MFC,43
+ARM,WinAPI,43
+Agile,Микроконтроллеры,43
+Asio,GDB,43
+Bash,GDB,43
+C,addresssanitizer,43
+C,zeromq,43
+C++17,Perforce,43
+C++17,Verilog,43
+C++20,GDB,43
+C++20,Компьютерное зрение,43
+CI/CD,Unreal Engine,43
+Docker,FPGA,43
+Embedded Linux,Unreal Engine,43
+Embedded Linux,gRPC,43
+FIX protocol,Qt,43
+GDB,SVN,43
+Google Test,Linear algebra,43
+Kafka,Микроконтроллеры,43
+Linear algebra,Visual Studio,43
+Low latency,PostgreSQL,43
+Low latency,SPI/I2C/UART,43
+Make,gRPC,43
+Make,Математика,43
+OpenCV,SPI/I2C/UART,43
+Perforce,Микроконтроллеры,43
+Python,flatbuffers,43
+SPI/I2C/UART,Unit-тестирование,43
+SPI/I2C/UART,Компьютерное зрение,43
+Wireshark,Микроконтроллеры,43
+Agile,C++17,42
+Agile,RTOS,42
+Asio,RTOS,42
+C#,MFC,42
+C#,Компьютерное зрение,42
+C++17,GCC,42
+C++20,Unit-тестирование,42
+C++20,Vulkan,42
+CAN,Google Test,42
+CI/CD,FPGA,42
+Delphi,PostgreSQL,42
+DirectX,SPI/I2C/UART,42
+GCC,Микроконтроллеры,42
+Jenkins,STM32,42
+Kafka,Make,42
+Kubernetes,Микроконтроллеры,42
+Make,OpenGL,42
+Pascal,PostgreSQL,42
+Python,ninja,42
+REST API,WinAPI,42
+RTOS,Unity,42
+Redis,Математика,42
+Unity,Микроконтроллеры,42
+bazel,Многопоточность,42
+flatbuffers,Многопоточность,42
+gRPC,Схемотехника,42
+ARM,C#,41
+Access,STM32,41
+Access,Микроконтроллеры,41
+Assembler,gRPC,41
+Bash,Modbus,41
+Bash,Unreal Engine,41
+C#,Embedded Linux,41
+C++17,Unit-тестирование,41
+C++20,Delphi,41
+C++20,Perforce,41
+C++20,Unity,41
+C++20,Visual Studio,41
+CAN,Protobuf,41
+CAN,WinAPI,41
+CAN,gRPC,41
+CI/CD,MFC,41
+CI/CD,OpenCV,41
+CI/CD,Схемотехника,41
+CMake,conan,41
+CMake,doxygen,41
+Clang,Docker,41
+DirectX,Low latency,41
+DirectX,OpenCV,41
+Embedded Linux,OpenGL,41
+GDB,Low latency,41
+Google Test,SIMD,41
+Java,SPI/I2C/UART,41
+Jenkins,Unreal Engine,41
+Linear algebra,Make,41
+Linux kernel,Паттерны проектирования,41
+Low latency,OpenGL,41
+MFC,OpenGL,41
+MFC,QML,41
+MFC,Компьютерное зрение,41
+MQTT,Паттерны проектирования,41
+Make,Unreal Engine,41
+OpenCV,Драйверы,41
+OpenMP,Паттерны проектирования,41
+Perforce,STM32,41
+Protobuf,STM32,41
+Protobuf,Математика,41
+QML,Компьютерное зрение,41
+RTOS,Алготрейдинг,41
+Redis,Rust,41
+SIMD,WinAPI,41
+SPI/I2C/UART,Wireshark,41
+Visual Studio,Математика,41
+gRPC,Математика,41
+ARM,FIX protocol,40
+ARM,Java,40
+ARM,Perforce,40
+Asio,WinAPI,40
+Assembler,Lua,40
+Bash,DirectX,40
+C#,Google Test,40
+C#,gRPC,40
+C++20,MFC,40
+C++20,Modbus,40
+CAN,Low latency,40
+CAN,OpenGL,40
+CAN,SIMD,40
+CI/CD,MQTT,40
+CI/CD,Технический английский,40
+CUDA,PostgreSQL,40
+Delphi,SPI/I2C/UART,40
+Delphi,STM32,40
+DirectX,Компьютерное зрение,40
+Embedded Linux,Vulkan,40
+GDB,MFC,40
+GDB,Компьютерное зрение,40
+Google Test,Unreal Engine,40
+Jenkins,RTOS,40
+Kubernetes,SPI/I2C/UART,40
+Linear algebra,MFC,40
+Lua,Паттерны проектирования,40
+MQTT,PostgreSQL,40
+Modbus,OpenCV,40
+OpenCV,Visual Studio,40
+OpenGL,SVN,40
+Python,bazel,40
+REST API,Микроконтроллеры,40
+ROS,RTOS,40
+Rust,gRPC,40
+SPI/I2C/UART,Visual Studio,40
+Verilog,WinAPI,40
+catch2,Многопоточность,40
+zeromq,Многопоточность,40
+ARM,Unit-тестирование,39
+ARM,Vulkan,39
+ARM,Алготрейдинг,39
+Asio,Low latency,39
+Assembler,MFC,39
+Assembler,QML,39
+Assembler,Алготрейдинг,39
+Bash,MFC,39
+Bash,Make,39
+C#,CAN,39
+CAN,Kafka,39
+CUDA,GDB,39
+Delphi,Low latency,39
+DirectX,RTOS,39
+Embedded Linux,Kafka,39
+Embedded Linux,Visual Studio,39
+GDB,Kafka,39
+GDB,Protobuf,39
+Google Test,Схемотехника,39
+Kubernetes,Make,39
+Linear algebra,RTOS,39
+Linear algebra,SVN,39
+Linux kernel,OpenCV,39
+Low latency,Lua,39
+Low latency,Make,39
+Low latency,Perforce,39
+MFC,SPI/I2C/UART,39
+Modbus,OpenGL,39
+Modbus,WinAPI,39
+OpenCV,SVN,39
+OpenGL,Схемотехника,39
+OpenMP,QML,39
+OpenMP,WinAPI,39
+Perforce,WinAPI,39
+PostgreSQL,REST API,39
+PostgreSQL,Драйверы,39
+Python,catch2,39
+RTOS,Valgrind,39
+RTOS,Wireshark,39
+SVN,Компьютерное зрение,39
+Unit-тестирование,Микроконтроллеры,39
+Unreal Engine,Драйверы,39
+Valgrind,Паттерны проектирования,39
+Драйверы,Математика,39
+ARM,Access,38
+Asio,Assembler,38
+Asio,STM32,38
+Assembler,Linear algebra,38
+Assembler,SVN,38
+Assembler,Компьютерное зрение,38
+C#,Low latency,38
+CI/CD,Make,38
+CMake,zeromq,38
+CUDA,Low latency,38
+CUDA,RTOS,38
+Clang,Микроконтроллеры,38
+Clang,Паттерны проектирования,38
+Delphi,Компьютерное зрение,38
+DirectX,WinAPI,38
+FIX protocol,Паттерны проектирования,38
+GDB,Linear algebra,38
+GDB,Lua,38
+GDB,gRPC,38
+Google Test,OpenMP,38
+Java,RTOS,38
+Jenkins,OpenCV,38
+Kafka,Математика,38
+Kubernetes,Linear algebra,38
+Kubernetes,Математика,38
+Linear algebra,Драйверы,38
+MQTT,Unreal Engine,38
+OpenCV,Unity,38
+OpenGL,Компьютерное зрение,38
+OpenMP,Unreal Engine,38
+PostgreSQL,SVN,38
+PostgreSQL,Unit-тестирование,38
+PostgreSQL,Vulkan,38
+PostgreSQL,Алготрейдинг,38
+PostgreSQL,Схемотехника,38
+QML,Драйверы,38
+REST API,STM32,38
+Redis,SPI/I2C/UART,38
+Redis,WinAPI,38
+Rust,SPI/I2C/UART,38
+STM32,Wireshark,38
+SVN,Unreal Engine,38
+Unreal Engine,Wireshark,38
+Visual Studio,Компьютерное зрение,38
+conan,Алгоритмы и структуры данных,38
+doxygen,Многопоточность,38
+Компьютерное зрение,Схемотехника,38
+ARM,Delphi,37
+ARM,Kubernetes,37
+ARM,Компьютерное зрение,37
+Access,OpenCV,37
+Asio,QML,37
+Asio,Математика,37
+Asio,Схемотехника,37
+C,sobjectizer,37
+C#,Драйверы,37
+C++17,FPGA,37
+C++20,Lua,37
+CAN,Linear algebra,37
+CI/CD,GDB,37
+CI/CD,Modbus,37
+CI/CD,Драйверы,37
+Delphi,Google Test,37
+Delphi,OpenCV,37
+DirectX,SVN,37
+Embedded Linux,OpenCV,37
+Embedded Linux,Protobuf,37
+Embedded Linux,SIMD,37
+FIX protocol,STM32,37
+FIX protocol,Unreal Engine,37
+FPGA,Unreal Engine,37
+GDB,Redis,37
+GDB,SIMD,37
+Google Test,OpenGL,37
+Kafka,OpenCV,37
+Kafka,SIMD,37
+Kubernetes,Wireshark,37
+Linear algebra,Low latency,37
+Linear algebra,WinAPI,37
+Low latency,MFC,37
+Make,OpenCV,37
+OpenCV,RTOS,37
+OpenCV,Verilog,37
+OpenCV,Vulkan,37
+OpenMP,PostgreSQL,37
+OpenMP,STM32,37
+Pascal,RTOS,37
+Pascal,STM32,37
+PostgreSQL,Компьютерное зрение,37
+Protobuf,Unreal Engine,37
+Protobuf,Visual Studio,37
+Protobuf,WinAPI,37
+Python,addresssanitizer,37
+Redis,STM32,37
+Redis,Visual Studio,37
+SPI/I2C/UART,Unity,37
+STM32,Компьютерное зрение,37
+Wireshark,Математика,37
+doxygen,Алгоритмы и структуры данных,37
+libuv,Многопоточность,37
+Математика,Схемотехника,37
+Схемотехника,Технический английский,37
+Access,PostgreSQL,36
+Assembler,Perforce,36
+C++17,Clang,36
+C++20,MQTT,36
+C++20,OpenMP,36
+C++20,Схемотехника,36
+CAN,SVN,36
+CAN,Технический английский,36
+CI/CD,Delphi,36
+CI/CD,SVN,36
+CI/CD,Visual Studio,36
+CUDA,QML,36
+CUDA,SPI/I2C/UART,36
+Delphi,GDB,36
+Delphi,OpenGL,36
+Delphi,Protobuf,36
+DirectX,MFC,36
+DirectX,gRPC,36
+Docker,Java,36
+FIX protocol,PostgreSQL,36
+GDB,Valgrind,36
+GDB,Технический английский,36
+Java,WinAPI,36
+Kafka,Unreal Engine,36
+Kubernetes,Unreal Engine,36
+Lua,PostgreSQL,36
+MQTT,OpenCV,36
+Make,QML,36
+Make,Wireshark,36
+Modbus,Unreal Engine,36
+OpenCV,Protobuf,36
+OpenCV,Valgrind,36
+OpenGL,Visual Studio,36
+OpenMP,SPI/I2C/UART,36
+Python,meson,36
+QML,Redis,36
+ROS,SPI/I2C/UART,36
+SPI/I2C/UART,SVN,36
+STM32,Vulkan,36
+STM32,Алготрейдинг,36
+SVN,Технический английский,36
+TCP/IP,addresssanitizer,36
+Unreal Engine,Valgrind,36
+Unreal Engine,Verilog,36
+ARM,Jenkins,35
+ARM,ROS,35
+Access,SPI/I2C/UART,35
+Agile,C++20,35
+Agile,PostgreSQL,35
+Assembler,Delphi,35
+Assembler,Google Test,35
+Assembler,Wireshark,35
+Bash,CAN,35
+Bash,CUDA,35
+Bash,FPGA,35
+Bash,QML,35
+C#,GDB,35
+C#,SVN,35
+CAN,Visual Studio,35
+CAN,Компьютерное зрение,35
+CI/CD,DirectX,35
+Clang,Embedded,35
+DirectX,Google Test,35
+Embedded Linux,Jenkins,35
+FIX protocol,Linear algebra,35
+FIX protocol,OpenCV,35
+FPGA,Математика,35
+FPGA,Технический английский,35
+GCC,RTOS,35
+GDB,Kubernetes,35
+GDB,Visual Studio,35
+Google Test,SVN,35
+Google Test,Verilog,35
+Google Test,Драйверы,35
+Google Test,Технический английский,35
+Kafka,Rust,35
+Linear algebra,QML,35
+OpenCV,Perforce,35
+Pascal,SPI/I2C/UART,35
+PostgreSQL,ROS,35
+ROS,WinAPI,35
+RTOS,Vulkan,35
+Redis,Технический английский,35
+WinAPI,Схемотехника,35
+Драйверы,Технический английский,35
+ARM,OpenMP,34
+ARM,Unity,34
+Assembler,DirectX,34
+Assembler,Kubernetes,34
+Bash,Unity,34
+Bash,Схемотехника,34
+C++20,REST API,34
+C++20,SVN,34
+CAN,QML,34
+CI/CD,OpenMP,34
+Clang,Unreal Engine,34
+Delphi,DirectX,34
+FPGA,WinAPI,34
+GCC,Паттерны проектирования,34
+Google Test,QML,34
+Jenkins,SPI/I2C/UART,34
+Kafka,Visual Studio,34
+Linux kernel,Математика,34
+Low latency,Компьютерное зрение,34
+Make,Технический английский,34
+OpenCV,Redis,34
+Protobuf,Схемотехника,34
+Protobuf,Технический английский,34
+QML,gRPC,34
+ROS,Микроконтроллеры,34
+RTOS,Unit-тестирование,34
+Rust,STM32,34
+Rust,WinAPI,34
+Rust,Математика,34
+Rust,Микроконтроллеры,34
+SVN,Драйверы,34
+Valgrind,Математика,34
+Vulkan,WinAPI,34
+Windows,meson,34
+conan,Многопоточность,34
+libuv,Алгоритмы и структуры данных,34
+ARM,GCC,33
+ARM,Pascal,33
+Agile,SPI/I2C/UART,33
+Asio,CAN,33
+Assembler,Pascal,33
+Assembler,Redis,33
+Bash,REST API,33
+Boost,sobjectizer,33
+C#,Delphi,33
+C#,Схемотехника,33
+CAN,Delphi,33
+CI/CD,Linux kernel,33
+CI/CD,QML,33
+CUDA,Modbus,33
+CUDA,Схемотехника,33
+DirectX,Protobuf,33
+Docker,REST API,33
+Docker,Valgrind,33
+FPGA,Linear algebra,33
+GDB,OpenMP,33
+Java,STM32,33
+Kubernetes,OpenGL,33
+Linux kernel,PostgreSQL,33
+Make,Redis,33
+Modbus,QML,33
+OpenCV,Wireshark,33
+OpenCV,gRPC,33
+PostgreSQL,Verilog,33
+REST API,Unreal Engine,33
+Redis,Unreal Engine,33
+SPI/I2C/UART,Valgrind,33
+SPI/I2C/UART,Vulkan,33
+Visual Studio,Технический английский,33
+Windows,conan,33
+Windows,sobjectizer,33
+addresssanitizer,ООП,33
+gRPC,Технический английский,33
+vcpkg,Алгоритмы и структуры данных,33
+Алготрейдинг,Паттерны проектирования,33
+Access,C++20,32
+Access,RTOS,32
+Agile,GDB,32
+Asio,MFC,32
+Bash,Delphi,32
+Bash,Perforce,32
+Bash,SVN,32
+Bash,WinAPI,32
+Bash,Драйверы,32
+C#,CUDA,32
+C++20,FPGA,32
+C++20,Pascal,32
+CAN,Redis,32
+CI/CD,Perforce,32
+CI/CD,SIMD,32
+CI/CD,Алготрейдинг,32
+CUDA,gRPC,32
+CUDA,Драйверы,32
+DirectX,Embedded Linux,32
+DirectX,QML,32
+Embedded Linux,SVN,32
+Embedded Linux,WinAPI,32
+Embedded Linux,Компьютерное зрение,32
+FIX protocol,RTOS,32
+GDB,Perforce,32
+GDB,Vulkan,32
+GDB,Wireshark,32
+Low latency,Pascal,32
+Low latency,QML,32
+Low latency,Redis,32
+Low latency,Visual Studio,32
+MFC,gRPC,32
+MFC,Технический английский,32
+MQTT,Компьютерное зрение,32
+MQTT,Математика,32
+OpenCV,Pascal,32
+OpenGL,OpenMP,32
+OpenGL,Verilog,32
+OpenMP,Микроконтроллеры,32
+Perforce,PostgreSQL,32
+SIMD,gRPC,32
+TCP/IP,doxygen,32
+Unit-тестирование,Математика,32
+Unreal Engine,Алготрейдинг,32
+Vulkan,Компьютерное зрение,32
+Windows,flatbuffers,32
+Wireshark,Схемотехника,32
+addresssanitizer,Алгоритмы и структуры данных,32
+ninja,Многопоточность,32
+Access,OpenGL,31
+Asio,C#,31
+Asio,OpenGL,31
+Assembler,Protobuf,31
+Boost,addresssanitizer,31
+Boost,zeromq,31
+C#,Redis,31
+C++20,Java,31
+CAN,Kubernetes,31
+CAN,Unreal Engine,31
+CI/CD,Java,31
+CI/CD,Lua,31
+CI/CD,ROS,31
+CUDA,Jenkins,31
+CUDA,WinAPI,31
+Clang,WinAPI,31
+Delphi,Unity,31
+DirectX,OpenMP,31
+DirectX,Visual Studio,31
+Embedded Linux,GCC,31
+Embedded Linux,MFC,31
+FIX protocol,GDB,31
+GCC,PostgreSQL,31
+GCC,Математика,31
+GDB,Jenkins,31
+Google Test,Perforce,31
+Google Test,Visual Studio,31
+Google Test,WinAPI,31
+Java,OpenCV,31
+Java,PostgreSQL,31
+Java,Unreal Engine,31
+Kafka,Linear algebra,31
+Kafka,Low latency,31
+Kafka,Modbus,31
+Lua,QML,31
+MFC,Make,31
+MFC,Valgrind,31
+MQTT,Технический английский,31
+Make,Valgrind,31
+Modbus,Компьютерное зрение,31
+Modbus,Технический английский,31
+OpenMP,RTOS,31
+Perforce,Компьютерное зрение,31
+Perforce,Схемотехника,31
+Protobuf,Vulkan,31
+REST API,RTOS,31
+SIMD,Схемотехника,31
+TCP/IP,catch2,31
+Unit-тестирование,Visual Studio,31
+Windows,doxygen,31
+meson,Многопоточность,31
+ARM,REST API,30
+Access,Low latency,30
+Access,Математика,30
+Access,Технический английский,30
+Agile,WinAPI,30
+Assembler,Visual Studio,30
+Bash,Java,30
+Bash,Lua,30
+C#,Protobuf,30
+C++20,ROS,30
+C++20,Verilog,30
+CAN,DirectX,30
+CAN,GCC,30
+CAN,Lua,30
+CUDA,DirectX,30
+CUDA,STM32,30
+Clang,OpenCV,30
+Clang,SPI/I2C/UART,30
+DirectX,FPGA,30
+Embedded Linux,Kubernetes,30
+FIX protocol,SPI/I2C/UART,30
+FIX protocol,Микроконтроллеры,30
+FPGA,Low latency,30
+GCC,OpenCV,30
+GCC,QML,30
+GCC,WinAPI,30
+GDB,Unit-тестирование,30
+Google Test,Lua,30
+Java,OpenGL,30
+Java,Математика,30
+Jenkins,MFC,30
+Jenkins,Modbus,30
+Kafka,Компьютерное зрение,30
+Kubernetes,Low latency,30
+Kubernetes,OpenCV,30
+Kubernetes,Rust,30
+Low latency,Modbus,30
+Low latency,Unit-тестирование,30
+Low latency,gRPC,30
+Make,Protobuf,30
+Make,Visual Studio,30
+OpenCV,Rust,30
+OpenGL,Pascal,30
+OpenGL,Технический английский,30
+Pascal,Protobuf,30
+Pascal,Математика,30
+Perforce,Visual Studio,30
+Perforce,Технический английский,30
+Protobuf,QML,30
+Protobuf,Драйверы,30
+QML,Алготрейдинг,30
+ROS,STM32,30
+ROS,Unreal Engine,30
+SQL,catch2,30
+Unreal Engine,gRPC,30
+Verilog,Visual Studio,30
+Vulkan,gRPC,30
+WinAPI,Алготрейдинг,30
+bazel,Алгоритмы и структуры данных,30
+ARM,Rust,29
+Access,Embedded Linux,29
+Access,Компьютерное зрение,29
+Assembler,Unity,29
+Bash,C#,29
+Boost,bazel,29
+Boost,flatbuffers,29
+C#,FPGA,29
+C#,Java,29
+C#,MQTT,29
+C#,Технический английский,29
+C++20,Clang,29
+CI/CD,Verilog,29
+Delphi,Verilog,29
+Embedded Linux,FIX protocol,29
+Embedded Linux,OpenMP,29
+FIX protocol,WinAPI,29
+FPGA,OpenCV,29
+GCC,SPI/I2C/UART,29
+GCC,Компьютерное зрение,29
+GDB,Rust,29
+Google Test,MFC,29
+Jenkins,Схемотехника,29
+Jenkins,Технический английский,29
+Kafka,WinAPI,29
+Kafka,Драйверы,29
+Linear algebra,gRPC,29
+Linux kernel,Unreal Engine,29
+Low latency,Protobuf,29
+MFC,Modbus,29
+MFC,SIMD,29
+Make,Компьютерное зрение,29
+Modbus,Protobuf,29
+Modbus,Visual Studio,29
+QML,SVN,29
+Qt,conan,29
+REST API,Математика,29
+Redis,Драйверы,29
+catch2,Алгоритмы и структуры данных,29
+Алготрейдинг,Математика,29
+Алготрейдинг,Схемотехника,29
+Драйверы,Компьютерное зрение,29
+Agile,Embedded Linux,28
+Agile,Математика,28
+Asio,Технический английский,28
+Assembler,CUDA,28
+Assembler,Kafka,28
+Bash,Pascal,28
+Bash,ROS,28
+C#,Jenkins,28
+CAN,Valgrind,28
+CAN,Vulkan,28
+CI/CD,CUDA,28
+CUDA,Protobuf,28
+Clang,Linear algebra,28
+Clang,STM32,28
+Clang,Технический английский,28
+Delphi,FPGA,28
+Delphi,Linear algebra,28
+Embedded,vcpkg,28
+Embedded Linux,Low latency,28
+Embedded Linux,Алготрейдинг,28
+FPGA,Google Test,28
+FPGA,OpenGL,28
+FPGA,Компьютерное зрение,28
+Google Test,Java,28
+Google Test,MQTT,28
+Google Test,Алготрейдинг,28
+Jenkins,Make,28
+Jenkins,Rust,28
+Jenkins,Visual Studio,28
+Jenkins,Компьютерное зрение,28
+Kubernetes,QML,28
+Linear algebra,REST API,28
+Lua,Make,28
+Lua,Схемотехника,28
+MFC,Драйверы,28
+Make,ROS,28
+Make,SIMD,28
+Modbus,Wireshark,28
+OpenCV,Схемотехника,28
+OpenMP,Visual Studio,28
+Pascal,gRPC,28
+QML,SIMD,28
+QML,Valgrind,28
+QML,Verilog,28
+Qt,flatbuffers,28
+ROS,SVN,28
+Redis,Verilog,28
+Rust,Алготрейдинг,28
+SIMD,Visual Studio,28
+SIMD,Драйверы,28
+TCP/IP,flatbuffers,28
+TCP/IP,sobjectizer,28
+TCP/IP,zeromq,28
+Unity,WinAPI,28
+Unity,Технический английский,28
+Visual Studio,Драйверы,28
+WinAPI,Wireshark,28
+Windows,addresssanitizer,28
+conan,Микроконтроллеры,28
+flatbuffers,Алгоритмы и структуры данных,28
+gRPC,Драйверы,28
+libuv,ООП,28
+meson,Алгоритмы и структуры данных,28
+ninja,Алгоритмы и структуры данных,28
+zeromq,Алгоритмы и структуры данных,28
+ARM,Clang,27
+ARM,meson,27
+Access,Assembler,27
+Access,QML,27
+Access,Unreal Engine,27
+Agile,QML,27
+Asio,Make,27
+Asio,OpenCV,27
+Asio,Драйверы,27
+Assembler,Jenkins,27
+Assembler,Vulkan,27
+Bash,Unit-тестирование,27
+Boost,libuv,27
+C#,Wireshark,27
+C++17,Valgrind,27
+C++20,GCC,27
+CAN,Jenkins,27
+CAN,Pascal,27
+CAN,REST API,27
+CAN,ROS,27
+DirectX,Make,27
+DirectX,Modbus,27
+DirectX,Wireshark,27
+DirectX,Драйверы,27
+Embedded,meson,27
+Embedded,ninja,27
+Embedded Linux,Lua,27
+Embedded Linux,Технический английский,27
+FIX protocol,Компьютерное зрение,27
+FPGA,MFC,27
+GCC,STM32,27
+GDB,Алготрейдинг,27
+Linear algebra,Redis,27
+Linux kernel,Perforce,27
+Linux kernel,Rust,27
+Low latency,REST API,27
+Low latency,Vulkan,27
+Lua,OpenCV,27
+Lua,Visual Studio,27
+Lua,Технический английский,27
+MFC,OpenMP,27
+MFC,Redis,27
+MFC,Unit-тестирование,27
+MFC,Схемотехника,27
+MQTT,SVN,27
+MQTT,gRPC,27
+Make,OpenMP,27
+Make,Unit-тестирование,27
+Modbus,Pascal,27
+Modbus,SIMD,27
+OpenCV,REST API,27
+OpenGL,Redis,27
+Pascal,Unreal Engine,27
+Perforce,QML,27
+Perforce,Драйверы,27
+Protobuf,SIMD,27
+ROS,Драйверы,27
+SVN,Unity,27
+SVN,gRPC,27
+Unit-тестирование,gRPC,27
+Unity,Драйверы,27
+Visual Studio,Vulkan,27
+Visual Studio,Схемотехника,27
+Agile,Make,26
+Asio,Linear algebra,26
+Bash,Visual Studio,26
+Boost,conan,26
+Boost,doxygen,26
+C#,FIX protocol,26
+C++17,addresssanitizer,26
+C++20,Valgrind,26
+CAN,Unit-тестирование,26
+CI/CD,Pascal,26
+CI/CD,Unity,26
+Clang,Low latency,26
+Clang,PostgreSQL,26
+Delphi,Kafka,26
+Delphi,SIMD,26
+Delphi,gRPC,26
+Delphi,Технический английский,26
+DirectX,Jenkins,26
+Embedded,bazel,26
+Embedded,conan,26
+Embedded,libuv,26
+Embedded Linux,Redis,26
+Embedded Linux,Unity,26
+Embedded Linux,Valgrind,26
+FIX protocol,Make,26
+FIX protocol,Rust,26
+FPGA,SVN,26
+GDB,Java,26
+Google Test,Unit-тестирование,26
+Google Test,Unity,26
+Jenkins,OpenGL,26
+Jenkins,Pascal,26
+Jenkins,SIMD,26
+Jenkins,Драйверы,26
+Kubernetes,Технический английский,26
+Linear algebra,Verilog,26
+Linux kernel,OpenGL,26
+Linux kernel,Pascal,26
+Linux kernel,QML,26
+Linux kernel,SVN,26
+Linux kernel,Visual Studio,26
+Low latency,MQTT,26
+Lua,MFC,26
+Lua,Redis,26
+Lua,SVN,26
+MQTT,OpenGL,26
+MQTT,QML,26
+OpenCV,Unit-тестирование,26
+OpenCV,Алготрейдинг,26
+OpenGL,REST API,26
+OpenGL,ROS,26
+OpenGL,Wireshark,26
+Pascal,QML,26
+Pascal,Драйверы,26
+Protobuf,Unit-тестирование,26
+QML,Vulkan,26
+Qt,bazel,26
+RTOS,Rust,26
+Redis,SIMD,26
+Redis,SVN,26
+Redis,Компьютерное зрение,26
+Redis,Схемотехника,26
+SIMD,SVN,26
+SQL,flatbuffers,26
+SVN,Unit-тестирование,26
+SVN,Vulkan,26
+TCP/IP,conan,26
+Unit-тестирование,Технический английский,26
+Unity,Visual Studio,26
+Unity,Схемотехника,26
+Windows,bazel,26
+Windows,libuv,26
+gRPC,Компьютерное зрение,26
+sobjectizer,Алгоритмы и структуры данных,26
+Алготрейдинг,Компьютерное зрение,26
+Access,Bash,25
+Agile,OpenCV,25
+Asio,Embedded Linux,25
+Asio,Rust,25
+Assembler,FIX protocol,25
+Bash,MQTT,25
+Bash,Verilog,25
+Boost,catch2,25
+C#,Linux kernel,25
+C#,Make,25
+C#,Valgrind,25
+CUDA,MFC,25
+CUDA,OpenGL,25
+Clang,QML,25
+Delphi,Embedded Linux,25
+Delphi,Jenkins,25
+DirectX,Схемотехника,25
+GDB,Pascal,25
+Google Test,Linux kernel,25
+Google Test,Pascal,25
+Java,MFC,25
+Jenkins,Low latency,25
+Kafka,MFC,25
+Kafka,SVN,25
+Kubernetes,WinAPI,25
+Linear algebra,Linux kernel,25
+Linear algebra,Алготрейдинг,25
+Linux kernel,MFC,25
+Low latency,Драйверы,25
+MFC,Perforce,25
+MFC,Vulkan,25
+MQTT,Visual Studio,25
+MQTT,WinAPI,25
+Make,Алготрейдинг,25
+OpenGL,Protobuf,25
+Pascal,Технический английский,25
+Protobuf,Компьютерное зрение,25
+QML,Unity,25
+ROS,Visual Studio,25
+Redis,Vulkan,25
+SQL,libuv,25
+TCP/IP,bazel,25
+TCP/IP,libuv,25
+Visual Studio,Wireshark,25
+Vulkan,Технический английский,25
+Windows,vcpkg,25
+Access,C#,24
+Agile,CI/CD,24
+Asio,Unit-тестирование,24
+Asio,Unreal Engine,24
+Asio,Компьютерное зрение,24
+Assembler,GCC,24
+Assembler,OpenMP,24
+Assembler,ROS,24
+Assembler,Unit-тестирование,24
+Assembler,Valgrind,24
+Bash,Clang,24
+Bash,Vulkan,24
+Boost,meson,24
+C#,CI/CD,24
+C#,Kafka,24
+C#,OpenMP,24
+CAN,Perforce,24
+CI/CD,REST API,24
+CI/CD,Vulkan,24
+CI/CD,Компьютерное зрение,24
+Clang,GDB,24
+Delphi,Make,24
+Delphi,Modbus,24
+Delphi,QML,24
+DirectX,GDB,24
+DirectX,Redis,24
+Docker,libuv,24
+FIX protocol,Google Test,24
+FIX protocol,MFC,24
+FPGA,Visual Studio,24
+GCC,Linear algebra,24
+GDB,ROS,24
+Google Test,Modbus,24
+Jenkins,QML,24
+Jenkins,SVN,24
+Kubernetes,Visual Studio,24
+Kubernetes,Схемотехника,24
+Linear algebra,Protobuf,24
+Linear algebra,Wireshark,24
+Lua,Protobuf,24
+Modbus,Unit-тестирование,24
+Modbus,Vulkan,24
+OpenGL,gRPC,24
+Pascal,Компьютерное зрение,24
+Perforce,SVN,24
+Protobuf,Unity,24
+QML,REST API,24
+QML,Rust,24
+ROS,Схемотехника,24
+Rust,Unreal Engine,24
+SQL,addresssanitizer,24
+SQL,conan,24
+SQL,doxygen,24
+SQL,zeromq,24
+TCP/IP,meson,24
+Unit-тестирование,Unreal Engine,24
+Vulkan,Драйверы,24
+Windows,zeromq,24
+doxygen,Паттерны проектирования,24
+Access,CAN,23
+Access,GDB,23
+Access,SIMD,23
+Agile,CAN,23
+Agile,Low latency,23
+Agile,Технический английский,23
+Bash,OpenMP,23
+Boost,ninja,23
+C#,ROS,23
+CAN,CUDA,23
+CAN,Wireshark,23
+CI/CD,Clang,23
+CI/CD,Unit-тестирование,23
+CUDA,SVN,23
+CUDA,Unity,23
+CUDA,Visual Studio,23
+Clang,OpenGL,23
+Clang,RTOS,23
+Delphi,Lua,23
+Delphi,Схемотехника,23
+Embedded,sobjectizer,23
+Embedded,zeromq,23
+FIX protocol,OpenGL,23
+FPGA,Protobuf,23
+FPGA,QML,23
+GDB,Unity,23
+Google Test,REST API,23
+Google Test,Vulkan,23
+Java,Linear algebra,23
+Java,Компьютерное зрение,23
+Jenkins,Linear algebra,23
+Jenkins,Linux kernel,23
+Kafka,Perforce,23
+Kubernetes,Modbus,23
+Kubernetes,Компьютерное зрение,23
+Linear algebra,Unit-тестирование,23
+Linux kernel,Protobuf,23
+Linux kernel,gRPC,23
+Lua,Verilog,23
+Lua,Компьютерное зрение,23
+MFC,Verilog,23
+MFC,Wireshark,23
+Make,Pascal,23
+Make,Perforce,23
+Modbus,SVN,23
+OpenGL,Rust,23
+OpenMP,Vulkan,23
+OpenMP,Схемотехника,23
+Pascal,SIMD,23
+Protobuf,Verilog,23
+Protobuf,Алготрейдинг,23
+Qt,addresssanitizer,23
+Qt,doxygen,23
+Qt,sobjectizer,23
+RTOS,conan,23
+Redis,Unit-тестирование,23
+SIMD,Wireshark,23
+SQL,bazel,23
+SVN,Verilog,23
+SVN,Схемотехника,23
+TCP/IP,ninja,23
+Unity,gRPC,23
+Valgrind,Visual Studio,23
+Verilog,gRPC,23
+Visual Studio,Алготрейдинг,23
+gRPC,Алготрейдинг,23
+ninja,ООП,23
+vcpkg,ООП,23
+ARM,bazel,22
+Access,Jenkins,22
+Agile,OpenGL,22
+Asio,Modbus,22
+Bash,GCC,22
+Boost,vcpkg,22
+C#,Kubernetes,22
+C#,Verilog,22
+C#,Алготрейдинг,22
+C++17,flatbuffers,22
+CAN,OpenMP,22
+CUDA,Embedded Linux,22
+CUDA,Google Test,22
+Clang,Компьютерное зрение,22
+Delphi,Алготрейдинг,22
+DirectX,Kafka,22
+DirectX,ROS,22
+DirectX,Unit-тестирование,22
+Embedded,addresssanitizer,22
+Embedded Linux,ROS,22
+FIX protocol,Схемотехника,22
+FPGA,Jenkins,22
+FPGA,OpenMP,22
+GCC,Make,22
+GCC,Unreal Engine,22
+GDB,REST API,22
+Java,Make,22
+Kafka,QML,22
+Kubernetes,SIMD,22
+Linear algebra,Modbus,22
+Linear algebra,Rust,22
+Low latency,ROS,22
+Low latency,Verilog,22
+Low latency,Wireshark,22
+Lua,Modbus,22
+Lua,gRPC,22
+MFC,MQTT,22
+MFC,Protobuf,22
+MFC,Алготрейдинг,22
+Make,Rust,22
+Make,SVN,22
+Modbus,gRPC,22
+OpenMP,Protobuf,22
+OpenMP,SVN,22
+Perforce,Protobuf,22
+QML,ROS,22
+QML,Wireshark,22
+RTOS,bazel,22
+Redis,Unity,22
+SPI/I2C/UART,Алготрейдинг,22
+SQL,sobjectizer,22
+SQL,vcpkg,22
+SVN,Wireshark,22
+TCP/IP,vcpkg,22
+Unit-тестирование,Драйверы,22
+Unity,Компьютерное зрение,22
+Vulkan,Схемотехника,22
+Windows,catch2,22
+Wireshark,Драйверы,22
+catch2,Микроконтроллеры,22
+doxygen,Микроконтроллеры,22
+doxygen,ООП,22
+flatbuffers,ООП,22
+libuv,Математика,22
+zeromq,ООП,22
+ARM,conan,21
+Access,Google Test,21
+Access,Protobuf,21
+Access,Драйверы,21
+Agile,Redis,21
+Asio,CUDA,21
+Asio,OpenMP,21
+Asio,Visual Studio,21
+CAN,Java,21
+CUDA,FPGA,21
+CUDA,Redis,21
+CUDA,Алготрейдинг,21
+Delphi,Perforce,21
+Delphi,Redis,21
+Delphi,Vulkan,21
+DirectX,Pascal,21
+DirectX,Технический английский,21
+Docker,conan,21
+Embedded,catch2,21
+Embedded,flatbuffers,21
+Embedded Linux,Perforce,21
+Embedded Linux,REST API,21
+Embedded Linux,Unit-тестирование,21
+FIX protocol,QML,21
+FIX protocol,Vulkan,21
+FPGA,Kafka,21
+FPGA,Алготрейдинг,21
+GCC,GDB,21
+GCC,Драйверы,21
+Google Test,ROS,21
+Java,QML,21
+Jenkins,MQTT,21
+Jenkins,Perforce,21
+Kafka,OpenGL,21
+Linear algebra,MQTT,21
+Lua,MQTT,21
+MQTT,Unit-тестирование,21
+Make,REST API,21
+OpenGL,Алготрейдинг,21
+Qt,catch2,21
+Qt,ninja,21
+SIMD,Verilog,21
+STM32,conan,21
+SVN,Алготрейдинг,21
+WinAPI,bazel,21
+catch2,ООП,21
+conan,ООП,21
+sobjectizer,ООП,21
+zeromq,Математика,21
+zeromq,Паттерны проектирования,21
+ARM,flatbuffers,20
+Agile,Google Test,20
+Asio,Delphi,20
+Asio,Linux kernel,20
+Asio,MQTT,20
+Asio,SIMD,20
+Asio,SVN,20
+C#,Pascal,20
+C++17,catch2,20
+CAN,FIX protocol,20
+CAN,Unity,20
+CAN,flatbuffers,20
+CAN,Алготрейдинг,20
+CUDA,Lua,20
+CUDA,Pascal,20
+CUDA,Vulkan,20
+Clang,Схемотехника,20
+Docker,bazel,20
+Embedded Linux,Pascal,20
+Embedded Linux,Wireshark,20
+FIX protocol,Kafka,20
+FIX protocol,Visual Studio,20
+FPGA,Redis,20
+FPGA,gRPC,20
+GCC,Google Test,20
+GCC,Схемотехника,20
+Jenkins,Vulkan,20
+Kafka,Linux kernel,20
+Kafka,Unity,20
+Kafka,Схемотехника,20
+Kubernetes,Pascal,20
+Kubernetes,SVN,20
+Linear algebra,Pascal,20
+Lua,OpenMP,20
+Lua,Pascal,20
+MQTT,SIMD,20
+Make,Vulkan,20
+OpenMP,Redis,20
+Pascal,Perforce,20
+Pascal,ROS,20
+Pascal,Redis,20
+Pascal,Схемотехника,20
+Perforce,Redis,20
+PostgreSQL,Valgrind,20
+Qt,zeromq,20
+REST API,SIMD,20
+REST API,Компьютерное зрение,20
+ROS,Unity,20
+Rust,Компьютерное зрение,20
+SQL,meson,20
+Unit-тестирование,Vulkan,20
+Valgrind,Драйверы,20
+Wireshark,Технический английский,20
+bazel,Микроконтроллеры,20
+bazel,Паттерны проектирования,20
+meson,Микроконтроллеры,20
+Access,Linear algebra,19
+Access,Схемотехника,19
+Asio,Алготрейдинг,19
+Assembler,REST API,19
+C#,Modbus,19
+C++17,sobjectizer,19
+CUDA,FIX protocol,19
+CUDA,Verilog,19
+Clang,DirectX,19
+Clang,Google Test,19
+Delphi,Kubernetes,19
+Delphi,ROS,19
+DirectX,REST API,19
+DirectX,Verilog,19
+Docker,catch2,19
+Embedded Linux,Java,19
+FIX protocol,SVN,19
+FPGA,Pascal,19
+FPGA,Vulkan,19
+Jenkins,Unity,19
+Kafka,Lua,19
+Kafka,MQTT,19
+Kafka,Технический английский,19
+Kubernetes,Linux kernel,19
+Linear algebra,Valgrind,19
+Linux kernel,Unit-тестирование,19
+Linux kernel,Valgrind,19
+Make,Unity,19
+Modbus,Redis,19
+Modbus,Unity,19
+OpenGL,Valgrind,19
+OpenMP,Драйверы,19
+Pascal,Vulkan,19
+REST API,Visual Studio,19
+Vulkan,Алготрейдинг,19
+Windows,ninja,19
+bazel,ООП,19
+libuv,Микроконтроллеры,19
+sobjectizer,Паттерны проектирования,19
+vcpkg,Паттерны проектирования,19
+ARM,addresssanitizer,18
+ARM,zeromq,18
+Agile,Linux kernel,18
+Agile,Драйверы,18
+Asio,DirectX,18
+Asio,Perforce,18
+Asio,Vulkan,18
+Assembler,Clang,18
+Assembler,Rust,18
+Assembler,bazel,18
+C++17,libuv,18
+C++20,doxygen,18
+CAN,Rust,18
+CUDA,Delphi,18
+CUDA,Kafka,18
+CUDA,Linux kernel,18
+CUDA,MQTT,18
+CUDA,Valgrind,18
+Clang,Embedded Linux,18
+Clang,Make,18
+Delphi,Unit-тестирование,18
+DirectX,FIX protocol,18
+Docker,sobjectizer,18
+Embedded,doxygen,18
+FIX protocol,Perforce,18
+FIX protocol,Драйверы,18
+GCC,OpenGL,18
+GCC,SVN,18
+Java,SIMD,18
+Java,SVN,18
+Java,Технический английский,18
+Jenkins,Unit-тестирование,18
+Kafka,OpenMP,18
+Kubernetes,Lua,18
+Kubernetes,MFC,18
+Low latency,OpenMP,18
+Low latency,Unity,18
+MQTT,Redis,18
+OpenCV,doxygen,18
+Pascal,Verilog,18
+Protobuf,REST API,18
+Qt,vcpkg,18
+REST API,Технический английский,18
+Rust,Wireshark,18
+SIMD,Unit-тестирование,18
+SVN,Valgrind,18
+Unit-тестирование,Unity,18
+Unit-тестирование,Схемотехника,18
+Valgrind,gRPC,18
+Valgrind,Компьютерное зрение,18
+Verilog,Компьютерное зрение,18
+WinAPI,conan,18
+catch2,Паттерны проектирования,18
+ninja,Микроконтроллеры,18
+sobjectizer,Математика,18
+zeromq,Микроконтроллеры,18
+ARM,catch2,17
+ARM,ninja,17
+Access,CI/CD,17
+Access,Modbus,17
+Agile,Assembler,17
+Agile,Bash,17
+Agile,Unreal Engine,17
+Agile,gRPC,17
+Agile,Схемотехника,17
+Asio,Pascal,17
+C#,GCC,17
+C#,REST API,17
+C#,libuv,17
+C++17,conan,17
+CI/CD,FIX protocol,17
+CUDA,Make,17
+CUDA,Perforce,17
+Delphi,Linux kernel,17
+Delphi,Драйверы,17
+DirectX,Java,17
+DirectX,Linux kernel,17
+DirectX,MQTT,17
+DirectX,Valgrind,17
+Docker,doxygen,17
+Embedded Linux,bazel,17
+FIX protocol,Modbus,17
+FIX protocol,gRPC,17
+FPGA,SIMD,17
+GCC,MFC,17
+GDB,conan,17
+Google Test,Valgrind,17
+Jenkins,Lua,17
+Jenkins,Verilog,17
+Kafka,Алготрейдинг,17
+Linux kernel,ROS,17
+Linux kernel,Redis,17
+Linux kernel,Wireshark,17
+MFC,ROS,17
+MFC,Rust,17
+MQTT,Perforce,17
+MQTT,Protobuf,17
+OpenMP,gRPC,17
+Perforce,Алготрейдинг,17
+PostgreSQL,catch2,17
+Protobuf,ROS,17
+QML,sobjectizer,17
+Qt,meson,17
+REST API,gRPC,17
+REST API,Схемотехника,17
+ROS,gRPC,17
+RTOS,flatbuffers,17
+Rust,SVN,17
+Rust,Драйверы,17
+SIMD,Valgrind,17
+Unity,Алготрейдинг,17
+Wireshark,Компьютерное зрение,17
+addresssanitizer,Математика,17
+Access,CUDA,16
+Access,FPGA,16
+Access,MQTT,16
+Access,Make,16
+Access,Redis,16
+Agile,C#,16
+Agile,SIMD,16
+Agile,SVN,16
+Asio,FPGA,16
+Asio,Unity,16
+Assembler,Java,16
+C#,Clang,16
+C++17,zeromq,16
+C++20,addresssanitizer,16
+CAN,catch2,16
+CI/CD,GCC,16
+CUDA,Kubernetes,16
+Clang,MFC,16
+Clang,Protobuf,16
+Delphi,FIX protocol,16
+Delphi,REST API,16
+Delphi,Wireshark,16
+DirectX,GCC,16
+DirectX,Алготрейдинг,16
+Docker,ninja,16
+Docker,vcpkg,16
+FIX protocol,OpenMP,16
+FIX protocol,Redis,16
+FIX protocol,Unit-тестирование,16
+GCC,Protobuf,16
+GCC,Visual Studio,16
+GCC,Технический английский,16
+Java,Low latency,16
+Java,gRPC,16
+Linear algebra,addresssanitizer,16
+Lua,ROS,16
+MFC,REST API,16
+MFC,Unity,16
+MQTT,Алготрейдинг,16
+Modbus,ROS,16
+Modbus,Valgrind,16
+OpenCV,libuv,16
+OpenCV,meson,16
+OpenGL,sobjectizer,16
+OpenMP,Pascal,16
+OpenMP,Unity,16
+OpenMP,Wireshark,16
+Perforce,gRPC,16
+Qt,libuv,16
+Redis,Алготрейдинг,16
+SPI/I2C/UART,catch2,16
+SPI/I2C/UART,conan,16
+Unit-тестирование,Компьютерное зрение,16
+Vulkan,Wireshark,16
+WinAPI,flatbuffers,16
+conan,Паттерны проектирования,16
+libuv,Паттерны проектирования,16
+meson,Математика,16
+meson,ООП,16
+Алготрейдинг,Драйверы,16
+Access,Asio,15
+Access,Linux kernel,15
+Access,OpenMP,15
+Agile,DirectX,15
+Agile,Kafka,15
+Agile,Linear algebra,15
+Agile,Компьютерное зрение,15
+Asio,Java,15
+Asio,ROS,15
+CAN,Clang,15
+CI/CD,flatbuffers,15
+CUDA,GCC,15
+CUDA,Java,15
+CUDA,Wireshark,15
+Clang,FPGA,15
+Clang,Modbus,15
+Delphi,Java,15
+Delphi,MQTT,15
+Delphi,Valgrind,15
+Docker,addresssanitizer,15
+Docker,zeromq,15
+FIX protocol,Verilog,15
+FPGA,Unit-тестирование,15
+FPGA,Unity,15
+GCC,Low latency,15
+GCC,Redis,15
+Kafka,Pascal,15
+Kafka,Vulkan,15
+Kubernetes,Perforce,15
+Kubernetes,Unit-тестирование,15
+Kubernetes,Алготрейдинг,15
+Kubernetes,Драйверы,15
+Linear algebra,vcpkg,15
+Linear algebra,zeromq,15
+Lua,Unit-тестирование,15
+MQTT,OpenMP,15
+Modbus,OpenMP,15
+Modbus,Perforce,15
+Modbus,Алготрейдинг,15
+OpenGL,addresssanitizer,15
+OpenMP,Perforce,15
+Pascal,Wireshark,15
+PostgreSQL,doxygen,15
+PostgreSQL,ninja,15
+ROS,Redis,15
+RTOS,libuv,15
+RTOS,zeromq,15
+Rust,Схемотехника,15
+SPI/I2C/UART,libuv,15
+SPI/I2C/UART,ninja,15
+SQL,ninja,15
+STM32,catch2,15
+STM32,meson,15
+STM32,ninja,15
+STM32,vcpkg,15
+STM32,zeromq,15
+Unity,Valgrind,15
+Unreal Engine,bazel,15
+Unreal Engine,libuv,15
+Unreal Engine,vcpkg,15
+Unreal Engine,zeromq,15
+Visual Studio,addresssanitizer,15
+catch2,Математика,15
+flatbuffers,Паттерны проектирования,15
+meson,Технический английский,15
+vcpkg,Микроконтроллеры,15
+ARM,libuv,14
+Agile,FPGA,14
+Assembler,conan,14
+Bash,Valgrind,14
+C#,Rust,14
+C#,conan,14
+C++17,bazel,14
+CI/CD,doxygen,14
+CI/CD,libuv,14
+Clang,SIMD,14
+Clang,Алготрейдинг,14
+Clang,Драйверы,14
+Clang,Математика,14
+DirectX,Kubernetes,14
+Embedded Linux,Rust,14
+FPGA,ROS,14
+FPGA,Valgrind,14
+GCC,Unit-тестирование,14
+GCC,gRPC,14
+GDB,flatbuffers,14
+GDB,zeromq,14
+Java,Perforce,14
+Java,Protobuf,14
+Java,Unit-тестирование,14
+Java,Visual Studio,14
+Java,Драйверы,14
+Jenkins,OpenMP,14
+Jenkins,REST API,14
+Kubernetes,OpenMP,14
+Kubernetes,Vulkan,14
+Linux kernel,Vulkan,14
+Linux kernel,Компьютерное зрение,14
+Lua,Wireshark,14
+Lua,Драйверы,14
+MFC,addresssanitizer,14
+MFC,flatbuffers,14
+MQTT,Pascal,14
+Modbus,REST API,14
+OpenCV,zeromq,14
+OpenGL,libuv,14
+OpenMP,Verilog,14
+Pascal,Unit-тестирование,14
+Perforce,Verilog,14
+PostgreSQL,meson,14
+REST API,Redis,14
+REST API,Unit-тестирование,14
+REST API,Драйверы,14
+ROS,Verilog,14
+ROS,Алготрейдинг,14
+RTOS,ninja,14
+RTOS,sobjectizer,14
+SPI/I2C/UART,sobjectizer,14
+STM32,libuv,14
+STM32,sobjectizer,14
+Unity,Verilog,14
+Unity,Wireshark,14
+Unreal Engine,addresssanitizer,14
+Unreal Engine,conan,14
+Unreal Engine,meson,14
+WinAPI,vcpkg,14
+addresssanitizer,Паттерны проектирования,14
+meson,Компьютерное зрение,14
+vcpkg,Математика,14
+Access,Unit-тестирование,13
+Agile,Jenkins,13
+Agile,MFC,13
+Agile,MQTT,13
+Agile,Modbus,13
+Agile,Protobuf,13
+Asio,Clang,13
+Asio,REST API,13
+Bash,catch2,13
+C#,sobjectizer,13
+C++17,doxygen,13
+C++17,ninja,13
+C++17,vcpkg,13
+C++20,bazel,13
+C++20,catch2,13
+C++20,conan,13
+C++20,meson,13
+C++20,sobjectizer,13
+CAN,conan,13
+CAN,libuv,13
+CI/CD,Valgrind,13
+Clang,OpenMP,13
+Clang,Vulkan,13
+Delphi,addresssanitizer,13
+Docker,flatbuffers,13
+FIX protocol,MQTT,13
+FIX protocol,Unity,13
+FPGA,Kubernetes,13
+FPGA,Lua,13
+FPGA,Rust,13
+GCC,SIMD,13
+GCC,Vulkan,13
+GDB,bazel,13
+GDB,ninja,13
+Google Test,bazel,13
+Java,Jenkins,13
+Kafka,Verilog,13
+Kubernetes,Unity,13
+Linear algebra,meson,13
+Low latency,Valgrind,13
+MFC,conan,13
+MQTT,Unity,13
+MQTT,Valgrind,13
+Modbus,Rust,13
+OpenCV,catch2,13
+OpenCV,conan,13
+Pascal,Алготрейдинг,13
+QML,flatbuffers,13
+ROS,Unit-тестирование,13
+RTOS,catch2,13
+RTOS,meson,13
+SPI/I2C/UART,bazel,13
+SPI/I2C/UART,meson,13
+STM32,bazel,13
+STM32,flatbuffers,13
+Valgrind,Технический английский,13
+Verilog,Wireshark,13
+Verilog,Технический английский,13
+WinAPI,addresssanitizer,13
+WinAPI,meson,13
+WinAPI,sobjectizer,13
+catch2,Драйверы,13
+catch2,Компьютерное зрение,13
+conan,Схемотехника,13
+flatbuffers,Математика,13
+libuv,Технический английский,13
+zeromq,Схемотехника,13
+ARM,vcpkg,12
+Access,Lua,12
+Access,Unity,12
+Agile,Delphi,12
+Agile,Perforce,12
+Agile,Visual Studio,12
+Asio,GCC,12
+Asio,Valgrind,12
+Asio,addresssanitizer,12
+Assembler,flatbuffers,12
+Assembler,zeromq,12
+C#,addresssanitizer,12
+C#,zeromq,12
+CAN,ninja,12
+Clang,Delphi,12
+Clang,ROS,12
+Clang,SVN,12
+Clang,Unit-тестирование,12
+Delphi,OpenMP,12
+Delphi,Rust,12
+DirectX,Rust,12
+Embedded Linux,conan,12
+Embedded Linux,libuv,12
+FIX protocol,FPGA,12
+FIX protocol,Java,12
+FIX protocol,Jenkins,12
+FIX protocol,Lua,12
+FIX protocol,ROS,12
+FPGA,Perforce,12
+GCC,Kafka,12
+Google Test,doxygen,12
+Google Test,sobjectizer,12
+Java,Linux kernel,12
+Java,OpenMP,12
+Kubernetes,ROS,12
+Kubernetes,Verilog,12
+Linear algebra,catch2,12
+Linear algebra,libuv,12
+Linux kernel,Lua,12
+Linux kernel,OpenMP,12
+Linux kernel,Unity,12
+Low latency,addresssanitizer,12
+Low latency,catch2,12
+Lua,Valgrind,12
+MFC,libuv,12
+MQTT,REST API,12
+MQTT,ROS,12
+MQTT,Vulkan,12
+OpenCV,ninja,12
+OpenCV,vcpkg,12
+OpenGL,conan,12
+OpenGL,vcpkg,12
+Perforce,ROS,12
+Perforce,Unit-тестирование,12
+Protobuf,ninja,12
+REST API,SVN,12
+ROS,Wireshark,12
+SVN,catch2,12
+Unit-тестирование,Valgrind,12
+conan,Математика,12
+flatbuffers,Микроконтроллеры,12
+ninja,Паттерны проектирования,12
+sobjectizer,Микроконтроллеры,12
+zeromq,Технический английский,12
+Access,DirectX,11
+Access,Kafka,11
+Access,Perforce,11
+Access,ROS,11
+Agile,Kubernetes,11
+Agile,Unit-тестирование,11
+Agile,Unity,11
+Asio,Lua,11
+Bash,addresssanitizer,11
+Bash,libuv,11
+Bash,vcpkg,11
+C++20,vcpkg,11
+CAN,zeromq,11
+CI/CD,bazel,11
+CI/CD,catch2,11
+CUDA,REST API,11
+CUDA,Rust,11
+CUDA,Unit-тестирование,11
+Clang,Redis,11
+Clang,gRPC,11
+Delphi,GCC,11
+FIX protocol,Kubernetes,11
+FIX protocol,REST API,11
+GCC,Perforce,11
+GDB,addresssanitizer,11
+GDB,catch2,11
+GDB,meson,11
+Google Test,addresssanitizer,11
+Google Test,catch2,11
+Google Test,libuv,11
+Java,MQTT,11
+Java,Modbus,11
+Java,Redis,11
+Java,Vulkan,11
+Kafka,ROS,11
+Kafka,Unit-тестирование,11
+Kubernetes,MQTT,11
+Lua,Алготрейдинг,11
+Make,catch2,11
+Modbus,libuv,11
+OpenMP,REST API,11
+OpenMP,Алготрейдинг,11
+Perforce,Wireshark,11
+PostgreSQL,libuv,11
+Protobuf,Valgrind,11
+QML,doxygen,11
+QML,zeromq,11
+REST API,Vulkan,11
+RTOS,addresssanitizer,11
+RTOS,vcpkg,11
+Redis,sobjectizer,11
+Rust,Visual Studio,11
+SIMD,flatbuffers,11
+SIMD,meson,11
+SPI/I2C/UART,vcpkg,11
+SVN,addresssanitizer,11
+SVN,vcpkg,11
+Unit-тестирование,Verilog,11
+Valgrind,Vulkan,11
+Visual Studio,flatbuffers,11
+Visual Studio,vcpkg,11
+flatbuffers,Компьютерное зрение,11
+libuv,Компьютерное зрение,11
+sobjectizer,Компьютерное зрение,11
+sobjectizer,Технический английский,11
+Access,Vulkan,10
+Access,Wireshark,10
+Agile,Asio,10
+Asio,FIX protocol,10
+Asio,Verilog,10
+Assembler,addresssanitizer,10
+Assembler,catch2,10
+Assembler,meson,10
+Bash,bazel,10
+Bash,flatbuffers,10
+Bash,zeromq,10
+C++17,meson,10
+C++20,libuv,10
+C++20,zeromq,10
+CAN,meson,10
+CAN,vcpkg,10
+Clang,Lua,10
+Clang,Pascal,10
+Clang,Visual Studio,10
+Delphi,libuv,10
+DirectX,conan,10
+DirectX,libuv,10
+DirectX,zeromq,10
+Docker,meson,10
+Embedded Linux,ninja,10
+FIX protocol,Wireshark,10
+FPGA,GCC,10
+FPGA,Java,10
+FPGA,REST API,10
+FPGA,Wireshark,10
+GCC,Linux kernel,10
+GCC,MQTT,10
+GCC,OpenMP,10
+GDB,libuv,10
+GDB,vcpkg,10
+Java,Lua,10
+Jenkins,Valgrind,10
+Jenkins,Алготрейдинг,10
+Low latency,flatbuffers,10
+Low latency,ninja,10
+MQTT,Rust,10
+Make,libuv,10
+Make,zeromq,10
+Modbus,catch2,10
+OpenCV,addresssanitizer,10
+OpenCV,flatbuffers,10
+OpenGL,meson,10
+OpenGL,zeromq,10
+Pascal,REST API,10
+PostgreSQL,flatbuffers,10
+PostgreSQL,vcpkg,10
+QML,addresssanitizer,10
+QML,conan,10
+ROS,Rust,10
+ROS,Valgrind,10
+Rust,Verilog,10
+SIMD,conan,10
+SIMD,doxygen,10
+STM32,addresssanitizer,10
+SVN,flatbuffers,10
+Unit-тестирование,Wireshark,10
+Unreal Engine,doxygen,10
+Unreal Engine,flatbuffers,10
+Unreal Engine,sobjectizer,10
+Valgrind,Схемотехника,10
+Verilog,Vulkan,10
+Verilog,Алготрейдинг,10
+Vulkan,meson,10
+WinAPI,doxygen,10
+WinAPI,libuv,10
+WinAPI,zeromq,10
+addresssanitizer,Микроконтроллеры,10
+conan,Драйверы,10
+doxygen,Компьютерное зрение,10
+doxygen,Математика,10
+meson,Паттерны проектирования,10
+ninja,Драйверы,10
+ninja,Компьютерное зрение,10
+Access,Verilog,9
+Agile,FIX protocol,9
+Agile,Vulkan,9
+Agile,Wireshark,9
+Asio,libuv,9
+Assembler,libuv,9
+Bash,doxygen,9
+Bash,meson,9
+C#,flatbuffers,9
+C++20,flatbuffers,9
+CAN,addresssanitizer,9
+CAN,sobjectizer,9
+CI/CD,conan,9
+CI/CD,meson,9
+CUDA,meson,9
+Clang,FIX protocol,9
+Clang,Linux kernel,9
+Clang,Valgrind,9
+DirectX,meson,9
+DirectX,sobjectizer,9
+Embedded Linux,zeromq,9
+FIX protocol,Protobuf,9
+FPGA,bazel,9
+Google Test,flatbuffers,9
+Google Test,meson,9
+Google Test,zeromq,9
+Java,Kubernetes,9
+Java,Pascal,9
+Java,ROS,9
+Java,Unity,9
+Java,Схемотехника,9
+Jenkins,ROS,9
+Kubernetes,REST API,9
+Linear algebra,bazel,9
+Linux kernel,REST API,9
+Linux kernel,catch2,9
+Low latency,bazel,9
+MFC,bazel,9
+MFC,meson,9
+MFC,zeromq,9
+Make,conan,9
+Modbus,conan,9
+OpenCV,bazel,9
+OpenCV,sobjectizer,9
+OpenGL,doxygen,9
+OpenMP,Valgrind,9
+Pascal,Rust,9
+Pascal,Unity,9
+Pascal,addresssanitizer,9
+Perforce,Valgrind,9
+Perforce,catch2,9
+PostgreSQL,addresssanitizer,9
+PostgreSQL,sobjectizer,9
+PostgreSQL,zeromq,9
+Protobuf,flatbuffers,9
+QML,catch2,9
+QML,vcpkg,9
+REST API,Rust,9
+ROS,Vulkan,9
+RTOS,doxygen,9
+Redis,catch2,9
+Rust,Unit-тестирование,9
+SIMD,bazel,9
+SIMD,vcpkg,9
+SPI/I2C/UART,addresssanitizer,9
+SPI/I2C/UART,flatbuffers,9
+Unreal Engine,catch2,9
+Valgrind,Wireshark,9
+Visual Studio,sobjectizer,9
+Vulkan,ninja,9
+WinAPI,ninja,9
+Wireshark,Алготрейдинг,9
+addresssanitizer,Технический английский,9
+bazel,Математика,9
+bazel,Схемотехника,9
+catch2,Технический английский,9
+flatbuffers,gRPC,9
+flatbuffers,Схемотехника,9
+ninja,Математика,9
+sobjectizer,Схемотехника,9
+vcpkg,Драйверы,9
+vcpkg,Компьютерное зрение,9
+vcpkg,Схемотехника,9
+ARM,doxygen,8
+ARM,sobjectizer,8
+Access,Kubernetes,8
+Access,Valgrind,8
+Access,gRPC,8
+Access,Алготрейдинг,8
+Agile,CUDA,8
+Assembler,ninja,8
+Assembler,sobjectizer,8
+Bash,conan,8
+Bash,sobjectizer,8
+C#,bazel,8
+C#,ninja,8
+CI/CD,sobjectizer,8
+CI/CD,vcpkg,8
+CI/CD,zeromq,8
+CUDA,Clang,8
+CUDA,doxygen,8
+CUDA,ninja,8
+Clang,Jenkins,8
+Clang,Kafka,8
+Clang,Kubernetes,8
+Clang,Perforce,8
+Clang,Unity,8
+Delphi,zeromq,8
+DirectX,flatbuffers,8
+DirectX,vcpkg,8
+Embedded Linux,flatbuffers,8
+Embedded Linux,sobjectizer,8
+FPGA,conan,8
+GCC,Jenkins,8
+GCC,Modbus,8
+Google Test,conan,8
+Java,Verilog,8
+Java,Wireshark,8
+Java,Алготрейдинг,8
+Jenkins,catch2,8
+Jenkins,zeromq,8
+Kafka,REST API,8
+Kafka,Valgrind,8
+Linear algebra,conan,8
+Linear algebra,doxygen,8
+Linear algebra,flatbuffers,8
+Linux kernel,conan,8
+Low latency,conan,8
+Low latency,doxygen,8
+Low latency,sobjectizer,8
+Lua,REST API,8
+Lua,libuv,8
+MFC,vcpkg,8
+MQTT,Wireshark,8
+MQTT,conan,8
+Make,flatbuffers,8
+Make,ninja,8
+Modbus,meson,8
+OpenGL,flatbuffers,8
+OpenMP,Rust,8
+OpenMP,Unit-тестирование,8
+Pascal,sobjectizer,8
+Perforce,REST API,8
+Perforce,flatbuffers,8
+Perforce,meson,8
+QML,bazel,8
+Redis,Valgrind,8
+Redis,libuv,8
+Redis,zeromq,8
+Rust,Vulkan,8
+Rust,flatbuffers,8
+Rust,meson,8
+SIMD,libuv,8
+SPI/I2C/UART,doxygen,8
+STM32,doxygen,8
+SVN,ninja,8
+SVN,sobjectizer,8
+Unity,bazel,8
+Unreal Engine,ninja,8
+Valgrind,Verilog,8
+Valgrind,Алготрейдинг,8
+Vulkan,addresssanitizer,8
+Vulkan,bazel,8
+WinAPI,catch2,8
+addresssanitizer,Драйверы,8
+addresssanitizer,Компьютерное зрение,8
+conan,Компьютерное зрение,8
+conan,Технический английский,8
+flatbuffers,Драйверы,8
+gRPC,ninja,8
+meson,Драйверы,8
+zeromq,Компьютерное зрение,8
+Access,FIX protocol,7
+Agile,ROS,7
+Assembler,doxygen,7
+Assembler,vcpkg,7
+C#,vcpkg,7
+CUDA,bazel,7
+CUDA,catch2,7
+CUDA,sobjectizer,7
+CUDA,zeromq,7
+Clang,MQTT,7
+Delphi,flatbuffers,7
+DirectX,addresssanitizer,7
+FIX protocol,Pascal,7
+FPGA,flatbuffers,7
+FPGA,libuv,7
+GCC,Lua,7
+GCC,Pascal,7
+GCC,ROS,7
+GCC,Unity,7
+GDB,sobjectizer,7
+Java,Kafka,7
+Jenkins,doxygen,7
+Jenkins,libuv,7
+Jenkins,sobjectizer,7
+Kafka,sobjectizer,7
+Linear algebra,ninja,7
+Linear algebra,sobjectizer,7
+Linux kernel,bazel,7
+Linux kernel,libuv,7
+Linux kernel,zeromq,7
+Low latency,zeromq,7
+Lua,meson,7
+Lua,vcpkg,7
+MQTT,bazel,7
+Make,bazel,7
+Modbus,doxygen,7
+OpenGL,bazel,7
+OpenMP,doxygen,7
+Pascal,Valgrind,7
+Pascal,bazel,7
+Pascal,libuv,7
+Pascal,vcpkg,7
+Perforce,Rust,7
+Perforce,bazel,7
+Perforce,libuv,7
+PostgreSQL,bazel,7
+PostgreSQL,conan,7
+Protobuf,bazel,7
+Protobuf,doxygen,7
+Protobuf,libuv,7
+Protobuf,sobjectizer,7
+QML,meson,7
+QML,ninja,7
+REST API,ROS,7
+REST API,Unity,7
+Redis,bazel,7
+Redis,meson,7
+Rust,bazel,7
+Rust,libuv,7
+SPI/I2C/UART,zeromq,7
+SVN,conan,7
+SVN,libuv,7
+SVN,meson,7
+Unit-тестирование,Алготрейдинг,7
+Unity,addresssanitizer,7
+Unity,conan,7
+Unity,zeromq,7
+Verilog,ninja,7
+Verilog,sobjectizer,7
+Visual Studio,meson,7
+Vulkan,zeromq,7
+Wireshark,meson,7
+addresssanitizer,gRPC,7
+addresssanitizer,Схемотехника,7
+doxygen,gRPC,7
+doxygen,Схемотехника,7
+flatbuffers,Технический английский,7
+gRPC,libuv,7
+gRPC,meson,7
+libuv,Алготрейдинг,7
+libuv,Схемотехника,7
+Access,Java,6
+Access,Rust,6
+Access,libuv,6
+Access,meson,6
+Agile,OpenMP,6
+Agile,Rust,6
+Agile,Verilog,6
+Agile,Алготрейдинг,6
+Asio,flatbuffers,6
+Asio,sobjectizer,6
+Asio,zeromq,6
+Bash,ninja,6
+CAN,bazel,6
+CAN,doxygen,6
+CUDA,libuv,6
+Delphi,ninja,6
+Delphi,vcpkg,6
+DirectX,doxygen,6
+Embedded Linux,catch2,6
+Embedded Linux,doxygen,6
+Embedded Linux,meson,6
+Embedded Linux,vcpkg,6
+FIX protocol,Valgrind,6
+FIX protocol,zeromq,6
+FPGA,meson,6
+FPGA,zeromq,6
+GCC,Алготрейдинг,6
+GDB,doxygen,6
+Google Test,ninja,6
+Jenkins,bazel,6
+Kubernetes,catch2,6
+Kubernetes,flatbuffers,6
+Kubernetes,libuv,6
+Kubernetes,sobjectizer,6
+Linux kernel,sobjectizer,6
+Low latency,libuv,6
+Low latency,meson,6
+Low latency,vcpkg,6
+Lua,addresssanitizer,6
+Lua,bazel,6
+Lua,sobjectizer,6
+Lua,zeromq,6
+MFC,catch2,6
+MFC,sobjectizer,6
+Make,doxygen,6
+Make,meson,6
+Modbus,flatbuffers,6
+Modbus,vcpkg,6
+OpenGL,ninja,6
+OpenMP,addresssanitizer,6
+OpenMP,libuv,6
+OpenMP,zeromq,6
+Pascal,conan,6
+Pascal,doxygen,6
+Pascal,flatbuffers,6
+Perforce,addresssanitizer,6
+Protobuf,catch2,6
+Protobuf,meson,6
+Protobuf,vcpkg,6
+ROS,doxygen,6
+Redis,ninja,6
+Rust,Unity,6
+SIMD,zeromq,6
+SVN,doxygen,6
+SVN,zeromq,6
+Unit-тестирование,addresssanitizer,6
+Unit-тестирование,flatbuffers,6
+Unit-тестирование,meson,6
+Unity,catch2,6
+Unity,doxygen,6
+Valgrind,vcpkg,6
+Verilog,meson,6
+Visual Studio,catch2,6
+Wireshark,conan,6
+bazel,gRPC,6
+catch2,Схемотехника,6
+doxygen,Технический английский,6
+gRPC,vcpkg,6
+meson,Алготрейдинг,6
+sobjectizer,Алготрейдинг,6
+zeromq,Алготрейдинг,6
+zeromq,Драйверы,6
+Access,addresssanitizer,5
+Access,vcpkg,5
+Agile,Valgrind,5
+Asio,conan,5
+Asio,doxygen,5
+C#,catch2,5
+C#,meson,5
+C++20,ninja,5
+CI/CD,addresssanitizer,5
+CI/CD,ninja,5
+CUDA,addresssanitizer,5
+CUDA,flatbuffers,5
+Clang,Wireshark,5
+Delphi,catch2,5
+Delphi,doxygen,5
+Delphi,sobjectizer,5
+DirectX,catch2,5
+Embedded Linux,addresssanitizer,5
+FIX protocol,GCC,5
+FIX protocol,addresssanitizer,5
+FIX protocol,conan,5
+FIX protocol,vcpkg,5
+FPGA,doxygen,5
+GCC,Kubernetes,5
+GCC,Rust,5
+Google Test,vcpkg,5
+Java,Rust,5
+Java,zeromq,5
+Jenkins,conan,5
+Jenkins,flatbuffers,5
+Jenkins,ninja,5
+Kafka,conan,5
+Kafka,flatbuffers,5
+Kafka,libuv,5
+Kafka,ninja,5
+Kubernetes,Valgrind,5
+Kubernetes,vcpkg,5
+Linux kernel,vcpkg,5
+Lua,Rust,5
+Lua,flatbuffers,5
+MQTT,addresssanitizer,5
+MQTT,catch2,5
+MQTT,doxygen,5
+MQTT,ninja,5
+MQTT,zeromq,5
+Make,sobjectizer,5
+Make,vcpkg,5
+Modbus,addresssanitizer,5
+Modbus,bazel,5
+Modbus,sobjectizer,5
+OpenGL,catch2,5
+OpenMP,conan,5
+OpenMP,sobjectizer,5
+OpenMP,vcpkg,5
+Pascal,catch2,5
+Perforce,conan,5
+Perforce,ninja,5
+Perforce,zeromq,5
+Protobuf,conan,5
+Protobuf,zeromq,5
+REST API,bazel,5
+REST API,Алготрейдинг,5
+ROS,catch2,5
+ROS,meson,5
+ROS,ninja,5
+ROS,zeromq,5
+SIMD,catch2,5
+SIMD,ninja,5
+SIMD,sobjectizer,5
+Unit-тестирование,catch2,5
+Unit-тестирование,doxygen,5
+Unit-тестирование,vcpkg,5
+Unity,ninja,5
+Unity,vcpkg,5
+Verilog,libuv,5
+Verilog,zeromq,5
+Visual Studio,bazel,5
+Visual Studio,doxygen,5
+Visual Studio,libuv,5
+Visual Studio,zeromq,5
+Vulkan,libuv,5
+Vulkan,sobjectizer,5
+Vulkan,vcpkg,5
+Wireshark,addresssanitizer,5
+bazel,Драйверы,5
+bazel,Компьютерное зрение,5
+bazel,Технический английский,5
+catch2,Алготрейдинг,5
+gRPC,sobjectizer,5
+gRPC,zeromq,5
+meson,Схемотехника,5
+ninja,Технический английский,5
+sobjectizer,Драйверы,5
+Access,GCC,4
+Access,conan,4
+Agile,REST API,4
+Agile,conan,4
+Asio,bazel,4
+Asio,ninja,4
+C#,doxygen,4
+CUDA,conan,4
+CUDA,vcpkg,4
+Clang,Rust,4
+Clang,Verilog,4
+Clang,conan,4
+Clang,doxygen,4
+Clang,flatbuffers,4
+Clang,sobjectizer,4
+Delphi,meson,4
+DirectX,bazel,4
+FIX protocol,libuv,4
+FIX protocol,meson,4
+FPGA,addresssanitizer,4
+GCC,Verilog,4
+GCC,doxygen,4
+GCC,libuv,4
+GCC,meson,4
+Java,libuv,4
+Kafka,bazel,4
+Kafka,catch2,4
+Kafka,meson,4
+Kubernetes,bazel,4
+Kubernetes,ninja,4
+Lua,doxygen,4
+MFC,doxygen,4
+MQTT,flatbuffers,4
+MQTT,meson,4
+MQTT,sobjectizer,4
+Make,addresssanitizer,4
+Modbus,ninja,4
+OpenMP,bazel,4
+Pascal,ninja,4
+Perforce,sobjectizer,4
+Protobuf,addresssanitizer,4
+QML,libuv,4
+REST API,Verilog,4
+REST API,vcpkg,4
+ROS,addresssanitizer,4
+ROS,libuv,4
+ROS,vcpkg,4
+Redis,addresssanitizer,4
+Redis,conan,4
+Redis,doxygen,4
+Redis,flatbuffers,4
+Unit-тестирование,bazel,4
+Unit-тестирование,ninja,4
+Unity,libuv,4
+Unity,meson,4
+Unity,sobjectizer,4
+Verilog,bazel,4
+Verilog,conan,4
+Verilog,vcpkg,4
+Visual Studio,conan,4
+Vulkan,catch2,4
+Vulkan,conan,4
+Vulkan,doxygen,4
+Vulkan,flatbuffers,4
+Wireshark,catch2,4
+Wireshark,doxygen,4
+Wireshark,flatbuffers,4
+Wireshark,libuv,4
+Wireshark,sobjectizer,4
+Wireshark,vcpkg,4
+Wireshark,zeromq,4
+catch2,gRPC,4
+conan,gRPC,4
+conan,Алготрейдинг,4
+flatbuffers,Алготрейдинг,4
+ninja,Схемотехника,4
+vcpkg,Технический английский,4
+Access,Agile,3
+Access,Clang,3
+Access,REST API,3
+Agile,GCC,3
+Agile,flatbuffers,3
+Agile,meson,3
+Agile,zeromq,3
+Asio,catch2,3
+Asio,meson,3
+Asio,vcpkg,3
+Clang,libuv,3
+Delphi,bazel,3
+FIX protocol,catch2,3
+FIX protocol,ninja,3
+FPGA,catch2,3
+FPGA,vcpkg,3
+GCC,Java,3
+GCC,Wireshark,3
+GCC,bazel,3
+GCC,sobjectizer,3
+Java,REST API,3
+Java,bazel,3
+Java,catch2,3
+Jenkins,addresssanitizer,3
+Jenkins,vcpkg,3
+Kafka,doxygen,3
+Kubernetes,addresssanitizer,3
+Kubernetes,conan,3
+Kubernetes,doxygen,3
+Linux kernel,addresssanitizer,3
+Linux kernel,doxygen,3
+Linux kernel,flatbuffers,3
+Linux kernel,meson,3
+Linux kernel,ninja,3
+Lua,conan,3
+MFC,ninja,3
+MQTT,libuv,3
+OpenMP,flatbuffers,3
+OpenMP,ninja,3
+Pascal,meson,3
+REST API,Valgrind,3
+REST API,Wireshark,3
+ROS,conan,3
+ROS,sobjectizer,3
+Redis,vcpkg,3
+Rust,vcpkg,3
+Rust,zeromq,3
+SIMD,addresssanitizer,3
+SVN,bazel,3
+Unit-тестирование,conan,3
+Unit-тестирование,zeromq,3
+Unity,flatbuffers,3
+Valgrind,addresssanitizer,3
+Valgrind,doxygen,3
+Verilog,addresssanitizer,3
+Visual Studio,ninja,3
+Wireshark,bazel,3
+Wireshark,ninja,3
+bazel,Алготрейдинг,3
+doxygen,Драйверы,3
+libuv,Драйверы,3
+ninja,Алготрейдинг,3
+vcpkg,Алготрейдинг,3
+Access,bazel,2
+Access,doxygen,2
+Access,flatbuffers,2
+Access,sobjectizer,2
+Access,zeromq,2
+Agile,Clang,2
+Agile,Lua,2
+Agile,Pascal,2
+Agile,addresssanitizer,2
+Agile,catch2,2
+Agile,doxygen,2
+Clang,Java,2
+Clang,REST API,2
+Clang,addresssanitizer,2
+Clang,catch2,2
+Clang,zeromq,2
+DirectX,ninja,2
+FIX protocol,flatbuffers,2
+FIX protocol,sobjectizer,2
+FPGA,ninja,2
+FPGA,sobjectizer,2
+GCC,addresssanitizer,2
+GCC,flatbuffers,2
+GCC,vcpkg,2
+GCC,zeromq,2
+Java,Valgrind,2
+Java,doxygen,2
+Java,flatbuffers,2
+Java,sobjectizer,2
+Jenkins,meson,2
+Kafka,addresssanitizer,2
+Kafka,vcpkg,2
+Kafka,zeromq,2
+Lua,catch2,2
+Modbus,zeromq,2
+OpenMP,catch2,2
+OpenMP,meson,2
+Pascal,zeromq,2
+Perforce,vcpkg,2
+REST API,conan,2
+REST API,flatbuffers,2
+REST API,libuv,2
+REST API,meson,2
+REST API,ninja,2
+REST API,zeromq,2
+ROS,bazel,2
+ROS,flatbuffers,2
+Rust,doxygen,2
+Rust,ninja,2
+Rust,sobjectizer,2
+Unit-тестирование,libuv,2
+Unit-тестирование,sobjectizer,2
+Valgrind,ninja,2
+Valgrind,zeromq,2
+Verilog,catch2,2
+Verilog,doxygen,2
+Verilog,flatbuffers,2
+addresssanitizer,Алготрейдинг,2
+doxygen,Алготрейдинг,2
+Access,catch2,1
+Agile,bazel,1
+Agile,sobjectizer,1
+Agile,vcpkg,1
+Clang,GCC,1
+Clang,bazel,1
+Clang,meson,1
+Clang,ninja,1
+Clang,vcpkg,1
+Delphi,conan,1
+FIX protocol,bazel,1
+FIX protocol,doxygen,1
+GCC,Valgrind,1
+GCC,catch2,1
+GCC,conan,1
+GCC,ninja,1
+Java,addresssanitizer,1
+Java,conan,1
+Java,ninja,1
+Kubernetes,zeromq,1
+Lua,ninja,1
+MQTT,vcpkg,1
+Perforce,doxygen,1
+REST API,catch2,1
+REST API,doxygen,1
+Rust,Valgrind,1
+Rust,addresssanitizer,1
+Rust,catch2,1
+Valgrind,meson,1
+Valgrind,sobjectizer,1

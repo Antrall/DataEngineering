@@ -1,0 +1,60 @@
+worker node: allocatable 2000m CPU, already requested by system pods 200m, free 1800m
+each pod asks 500m -> 3 pods fit at once; the Job wants 6 at once, 12 pods in total
+== pods right after the start
+> kubectl get pods -n hw5 -l job-name=cpu-wait -o wide
+NAME               READY   STATUS    RESTARTS   AGE   IP             NODE         NOMINATED NODE   READINESS GATES
+cpu-wait-0-sdx5v   1/1     Running   0          6s    10.244.1.116   hw5-worker   <none>           <none>
+cpu-wait-1-ns86g   1/1     Running   0          6s    10.244.1.117   hw5-worker   <none>           <none>
+cpu-wait-2-j5n8r   1/1     Running   0          6s    10.244.1.118   hw5-worker   <none>           <none>
+cpu-wait-3-jppl6   0/1     Pending   0          6s    <none>         <none>       <none>           <none>
+cpu-wait-4-2dcll   0/1     Pending   0          6s    <none>         <none>       <none>           <none>
+cpu-wait-5-wzmlk   0/1     Pending   0          6s    <none>         <none>       <none>           <none>
+> kubectl describe pod cpu-wait-3-jppl6 -n hw5   (Events)
+Events:
+  Type     Reason            Age              From               Message
+  ----     ------            ----             ----               -------
+  Warning  FailedScheduling  5s (x2 over 6s)  default-scheduler  0/2 nodes are available: 1 Insufficient cpu, 1 node(s) had untolerated taint {node-role.kubernetes.io/control-plane: }. preemption: 0/2 nodes are available: 1 No preemption victims found for incoming pod, 1 Preemption is not helpful for scheduling.
+> kubectl describe node hw5-worker   (Allocated resources)
+Allocated resources:
+  (Total limits may be over 100 percent, i.e., overcommitted.)
+  Resource           Requests     Limits
+  --------           --------     ------
+  cpu                1700m (85%)  3100m (155%)
+  memory             498Mi (3%)   1362Mi (8%)
+  ephemeral-storage  0 (0%)       0 (0%)
+  hugepages-1Gi      0 (0%)       0 (0%)
+  hugepages-2Mi      0 (0%)       0 (0%)
+== timeline: number of pods by phase
+t+   6 s: {'Running': 3, 'Pending': 3}
+t+  15 s: {'Succeeded': 3, 'Pending': 3}
+t+  16 s: {'Succeeded': 3, 'Pending': 5, 'Running': 1}
+t+  17 s: {'Succeeded': 3, 'Pending': 3, 'Running': 3}
+t+  31 s: {'Succeeded': 6, 'Pending': 3}
+t+  32 s: {'Succeeded': 6, 'Pending': 3, 'Running': 3}
+t+  45 s: {'Succeeded': 9, 'Pending': 3}
+t+  46 s: {'Succeeded': 9, 'Running': 1, 'Pending': 2}
+t+  50 s: {'Succeeded': 9, 'Running': 2, 'Pending': 1}
+t+  51 s: {'Succeeded': 9, 'Running': 3}
+t+  61 s: {'Succeeded': 10, 'Running': 2}
+t+  63 s: {'Succeeded': 11, 'Running': 1}
+t+  65 s: {'Succeeded': 12}
+== waiting time of each pod: creation -> scheduling
+  pod index  0: waited   0 s before it got CPU
+  pod index  1: waited   0 s before it got CPU
+  pod index  2: waited   0 s before it got CPU
+  pod index  3: waited  50 s before it got CPU
+  pod index  4: waited  48 s before it got CPU
+  pod index  5: waited  15 s before it got CPU
+  pod index  6: waited   0 s before it got CPU
+  pod index  7: waited  14 s before it got CPU
+  pod index  8: waited   0 s before it got CPU
+  pod index  9: waited   0 s before it got CPU
+  pod index 10: waited  14 s before it got CPU
+  pod index 11: waited   0 s before it got CPU
+== scheduler events (FailedScheduling)
+FailedScheduling events: 5; the first message:
+  0/2 nodes are available: 1 Insufficient cpu, 1 node(s) had untolerated taint {node-role.kubernetes.io/control-plane: }. preemption: 0/2 nodes are available: 1 No preemption victims found for incoming pod, 1 Preemption is not helpful for scheduling.
+== summary
+pods scheduled immediately after creation: 7 of 12
+pods that waited for CPU: 5; longest wait 50 s
+Job finished in 66 s; without the CPU shortage (6 pods at once) it would take about 2 rounds of ~15 s = ~30 s

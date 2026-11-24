@@ -1,0 +1,91 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  name: rustfs-credentials
+  namespace: hw5
+stringData:
+  access-key: antrall
+  secret-key: antrall123
+---
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: rustfs-data
+  namespace: hw5
+spec:
+  accessModes: ["ReadWriteOnce"]
+  resources:
+    requests:
+      storage: 5Gi
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: rustfs
+  namespace: hw5
+spec:
+  replicas: 1
+  strategy:
+    type: Recreate
+  selector:
+    matchLabels:
+      app: rustfs
+  template:
+    metadata:
+      labels:
+        app: rustfs
+    spec:
+      priorityClassName: service
+      initContainers:
+        - name: prepare-disks
+          image: busybox:1.36
+          imagePullPolicy: IfNotPresent
+          command: ["sh", "-c", "mkdir -p /data/disk1 /data/disk2 /data/disk3 /data/disk4 /logs && chown -R 10001:10001 /data /logs"]
+          volumeMounts:
+            - {name: data, mountPath: /data}
+            - {name: logs, mountPath: /logs}
+      containers:
+        - name: rustfs
+          image: rustfs/rustfs:latest
+          imagePullPolicy: IfNotPresent
+          ports:
+            - containerPort: 9000
+          env:
+            - name: RUSTFS_VOLUMES
+              value: "/data/disk{1...4}"
+            - name: RUSTFS_ACCESS_KEY
+              valueFrom: {secretKeyRef: {name: rustfs-credentials, key: access-key}}
+            - name: RUSTFS_SECRET_KEY
+              valueFrom: {secretKeyRef: {name: rustfs-credentials, key: secret-key}}
+            - name: RUSTFS_UNSAFE_BYPASS_DISK_CHECK
+              value: "true"
+          readinessProbe:
+            httpGet: {path: /health, port: 9000}
+            initialDelaySeconds: 3
+            periodSeconds: 3
+          resources:
+            requests: {cpu: 100m, memory: 256Mi}
+            limits: {memory: 1Gi}
+          volumeMounts:
+            - {name: data, mountPath: /data/disk1, subPath: disk1}
+            - {name: data, mountPath: /data/disk2, subPath: disk2}
+            - {name: data, mountPath: /data/disk3, subPath: disk3}
+            - {name: data, mountPath: /data/disk4, subPath: disk4}
+            - {name: logs, mountPath: /logs}
+      volumes:
+        - name: data
+          persistentVolumeClaim: {claimName: rustfs-data}
+        - name: logs
+          emptyDir: {}
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: rustfs
+  namespace: hw5
+spec:
+  selector:
+    app: rustfs
+  ports:
+    - port: 9000
+      targetPort: 9000

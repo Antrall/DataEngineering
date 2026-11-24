@@ -1,0 +1,39 @@
+> python src\make_kind_config.py
+host CPUs: 4, reserved on the worker: 2, left for workloads: 2
+written: kind-config.yaml
+> kind create cluster --config kind-config.yaml --wait 120s
+Creating cluster "hw5" ...
+ • Ensuring node image (kindest/node:v1.31.2) 🖼  ...
+ ✓ Ensuring node image (kindest/node:v1.31.2) 🖼
+ • Preparing nodes 📦 📦   ...
+ ✓ Preparing nodes 📦 📦 
+ • Writing configuration 📜  ...
+ ✓ Writing configuration 📜
+ • Starting control-plane 🕹️  ...
+ ✓ Starting control-plane 🕹️
+ • Installing CNI 🔌  ...
+ ✓ Installing CNI 🔌
+ • Installing StorageClass 💾  ...
+ ✓ Installing StorageClass 💾
+ • Joining worker nodes 🚜  ...
+ ✓ Joining worker nodes 🚜
+ • Waiting ≤ 2m0s for control-plane = Ready ⏳  ...
+ ✓ Waiting ≤ 2m0s for control-plane = Ready ⏳
+ • Ready after 7s 💚
+Set kubectl context to "kind-hw5"
+You can now use your cluster with:
+
+kubectl cluster-info --context kind-hw5
+
+Have a question, bug, or feature request? Let us know! https://kind.sigs.k8s.io/#community 🙂
+> kubectl wait --for=condition=Ready node --all --timeout=120s
+node/hw5-control-plane condition met
+node/hw5-worker condition met
+> kubectl get nodes
+NAME                STATUS   ROLES           AGE   VERSION
+hw5-control-plane   Ready    control-plane   11m   v1.31.2
+hw5-worker          Ready    <none>          11m   v1.31.2
+> kubectl get nodes -o custom-columns=NAME:.metadata.name,CPU_CAP:.status.capacity.cpu,CPU_ALLOC:.status.allocatable.cpu,MEM_ALLOC:.status.allocatable.memory
+NAME                CPU_CAP   CPU_ALLOC   MEM_ALLOC
+hw5-control-plane   4         4           16473744Ki
+hw5-worker          4         2           16473744Ki

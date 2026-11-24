@@ -1,0 +1,44 @@
+external S3 (HW3 on the host), as seen from pods: http://172.19.0.1:9000
+== A. generous limit: measure the peak
+pairs-single: limit 512Mi: phase Succeeded, container Completed, exit code 0, peak cgroup 70 MiB, maxrss 79 MiB
+pod log (tail):
+  Git + STL: 9353
+  CMake + Git: 7880
+  Linux + STL: 7455
+peak memory: cgroup 70 MiB, maxrss 79 MiB
+== B. limits below the peak
+pairs-single: limit 48Mi: phase Failed, container OOMKilled, exit code 137
+> kubectl get pods -n hw5
+NAME                 READY   STATUS      RESTARTS   AGE
+pairs-single-xtxwf   0/1     OOMKilled   0          4s
+> kubectl describe pod pairs-single-xtxwf -n hw5   (selected lines)
+    State:          Terminated
+      Reason:       OOMKilled
+      Exit Code:    137
+    Limits:
+      cpu:     1
+      memory:  48Mi
+    Requests:
+      cpu:     250m
+      memory:  32Mi
+pairs-single: limit 64Mi: phase Failed, container OOMKilled, exit code 137
+pairs-single: limit 80Mi: phase Succeeded, container Completed, exit code 0, peak cgroup 70 MiB, maxrss 79 MiB
+== C. chosen limit = ceil(70 MiB * 1.25 / 16) * 16 = 96 MiB
+pairs-single: limit 96Mi: phase Succeeded, container Completed, exit code 0, peak cgroup 70 MiB, maxrss 79 MiB
+result k8s/stage1/skills_2.csv vs HW3: file identical True, top-10 identical True
+  C++ + Git: 24602
+  C++ + Linux: 19143
+  Git + Linux: 14072
+  C++ + STL: 13567
+  C++ + CMake: 10739
+  C++ + Python: 9909
+  C++ + Многопоточность: 9793
+  Git + STL: 9353
+  CMake + Git: 7880
+  Linux + STL: 7455
+== summary: limit -> result
+measured peak (cgroup): 70 MiB
+    48 MiB -> OOMKilled
+    64 MiB -> OOMKilled
+    80 MiB -> Completed
+    96 MiB -> Completed

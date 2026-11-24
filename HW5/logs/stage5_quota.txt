@@ -1,0 +1,43 @@
+> kubectl describe resourcequota hw5-quota -n hw5-quota
+Name:            hw5-quota
+Namespace:       hw5-quota
+Resource         Used  Hard
+--------         ----  ----
+limits.memory    0     1Gi
+pods             0     10
+requests.cpu     0     1
+requests.memory  0     768Mi
+== a pod that alone exceeds the quota is rejected at once
+> kubectl apply -f manifests/greedy-pod.yaml
+Error from server (Forbidden): error when creating "manifests/greedy-pod.yaml": pods "greedy" is forbidden: exceeded quota: hw5-quota, requested: requests.cpu=2, used: requests.cpu=0, limited: requests.cpu=1
+== Job: 10 pods of 250m, 8 at a time, each works 10 s
+> kubectl get pods -n hw5-quota
+NAME                READY   STATUS    RESTARTS   AGE
+quota-job-0-whvvx   1/1     Running   0          7s
+quota-job-1-8pk5v   1/1     Running   0          7s
+quota-job-2-bsb8x   1/1     Running   0          7s
+quota-job-3-qvmbj   1/1     Running   0          7s
+> kubectl describe resourcequota hw5-quota -n hw5-quota
+Name:            hw5-quota
+Namespace:       hw5-quota
+Resource         Used   Hard
+--------         ----   ----
+limits.memory    384Mi  1Gi
+pods             4      10
+requests.cpu     1      1
+requests.memory  256Mi  768Mi
+> kubectl get events -n hw5-quota   (FailedCreate)
+  FailedCreate job/quota-job: Error creating: pods "quota-job-4-6k9b9" is forbidden: exceeded quota: hw5-quota, requested: requests.cpu=250m, used: requests.cpu=1, limited: requests.cpu=1
+  FailedCreate job/quota-job: Error creating: pods "quota-job-5-m9g4b" is forbidden: exceeded quota: hw5-quota, requested: requests.cpu=250m, used: requests.cpu=1, limited: requests.cpu=1
+== timeline: pods by phase and quota usage
+t+   7 s: pods {'Running': 4}, quota requests.cpu 1/1, pods 4/10
+t+  13 s: pods {'Succeeded': 4}, quota requests.cpu 0/1, pods 0/10
+t+  14 s: pods {'Succeeded': 4, 'Pending': 4}, quota requests.cpu 1/1, pods 4/10
+t+  16 s: pods {'Succeeded': 4, 'Running': 4}, quota requests.cpu 1/1, pods 4/10
+t+  28 s: pods {'Succeeded': 8}, quota requests.cpu 0/1, pods 0/10
+t+  29 s: pods {'Succeeded': 8, 'Running': 1, 'Pending': 1}, quota requests.cpu 500m/1, pods 2/10
+t+  30 s: pods {'Succeeded': 8, 'Running': 2}, quota requests.cpu 500m/1, pods 2/10
+t+  41 s: pods {'Succeeded': 10}, quota requests.cpu 0/1, pods 0/10
+== summary
+FailedCreate events (quota refused to create a pod): 10
+all 10 pods completed anyway: the Job kept retrying while the quota freed up

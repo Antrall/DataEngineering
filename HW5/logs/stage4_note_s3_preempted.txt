@@ -1,0 +1,19 @@
+# First attempt of stage 4: the scheduler preempted the in-cluster S3 pod (priority 0) instead of a background pod (priority 100)
+> kubectl get events -n hw5 --sort-by=.lastTimestamp   (filtered)
+2m29s       Normal    SuccessfulCreate        job/urgent-high                     Created pod: urgent-high-zgfvq
+2m29s       Warning   FailedScheduling        pod/urgent-high-zgfvq               0/2 nodes are available: 1 Insufficient cpu, 1 node(s) had untolerated taint {node-role.kubernetes.io/control-plane: }
+2m29s       Normal    Preempted               pod/rustfs-7c84475787-slmf7         Preempted by pod 0866fb19-aeb3-4698-b247-6dc1644b23c4 on node hw5-worker
+2m29s       Normal    Killing                 pod/rustfs-7c84475787-slmf7         Stopping container rustfs
+2m27s       Normal    Scheduled               pod/urgent-high-zgfvq               Successfully assigned hw5/urgent-high-zgfvq to hw5-worker
+2m27s       Normal    Started                 pod/urgent-high-zgfvq               Started container pairs
+2m27s       Normal    Created                 pod/urgent-high-zgfvq               Created container pairs
+2m27s       Normal    Pulled                  pod/urgent-high-zgfvq               Container image "hw5-pairs:1" already present on machine
+2m24s       Warning   BackoffLimitExceeded    job/urgent-high                     Job has reached the specified backoff limit
+
+> kubectl get pods -n hw5 -l job-name=urgent-high
+NAME                READY   STATUS   RESTARTS   AGE
+urgent-high-zgfvq   0/1     Error    0          2m29s
+
+> kubectl logs job/urgent-high   (last lines)
+    raise EndpointConnectionError(endpoint_url=request.url, error=e)
+botocore.exceptions.EndpointConnectionError: Could not connect to the endpoint URL: "http://rustfs.hw5.svc.cluster.local:9000/hh-lake/raw/it_vacancies_2024.csv"

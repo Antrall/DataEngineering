@@ -1,0 +1,26 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: ${JOB_NAME}
+  namespace: ${NAMESPACE}
+spec:
+  backoffLimit: 0
+  template:
+    spec:
+      restartPolicy: Never
+      priorityClassName: "${PRIORITY_CLASS}"
+      containers:
+        - name: pairs
+          image: hw5-pairs:1
+          imagePullPolicy: IfNotPresent
+          args: ["--mode", "whole", "--output-prefix", "${OUTPUT_PREFIX}", "--chunk-delay", "${CHUNK_DELAY}"]
+          env:
+            - name: S3_ENDPOINT
+              value: "${S3_ENDPOINT}"
+          resources:
+            requests:
+              cpu: ${CPU_REQUEST}
+              memory: 32Mi
+            limits:
+              cpu: "1"
+              memory: ${MEMORY_LIMIT}

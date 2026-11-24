@@ -1,0 +1,9 @@
+# Stage 4, run without a SIGTERM handler in the program: the preempted pod ignores SIGTERM and is killed only after the 30 s grace period
+free CPU 1800m: 4 background pods of 400m take 1600m, 200m stay free; the urgent pod asks 400m
+== the urgent job is submitted
+== events: who was preempted and when (seconds after the urgent job was submitted)
+  t+  0 s  FailedScheduling pod/urgent-high-kmz7j              0/2 nodes are available: 1 Insufficient cpu, 1 node(s) had untolerated taint {node-role.kubernetes.io/control-
+  t+  0 s  Preempted        pod/low-batch-1-ffw69              Preempted by pod 2cffee31-35cc-45da-b656-70346af16452 on node hw5-worker
+  t+  0 s  SuccessfulCreate job/urgent-high                    Created pod: urgent-high-kmz7j
+  t+  1 s  Killing          pod/low-batch-1-ffw69              Stopping container pairs
+  t+ 31 s  Scheduled        pod/urgent-high-kmz7j              Successfully assigned hw5/urgent-high-kmz7j to hw5-worker
